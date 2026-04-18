@@ -1,9 +1,12 @@
+event_inherited();
+
 daWae = path_add();
 moveSpeed = 4;
 
 state = "Idle";
 isTriggered = false;
 isRoaming = false;
+detectSignal = false;
 
 detectionZone = 300;
 

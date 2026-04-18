@@ -41,6 +41,7 @@
   },
   "name":"LD59",
   "resources":[
+    {"id":{"name":"objBasicSolids","path":"objects/objBasicSolids/objBasicSolids.yy",},},
     {"id":{"name":"objCore","path":"objects/objCore/objCore.yy",},},
     {"id":{"name":"Object16","path":"objects/Object16/Object16.yy",},},
     {"id":{"name":"objGreenPlaceholder","path":"objects/objGreenPlaceholder/objGreenPlaceholder.yy",},},
@@ -52,6 +53,7 @@
     {"id":{"name":"objPurplePlaceholder","path":"objects/objPurplePlaceholder/objPurplePlaceholder.yy",},},
     {"id":{"name":"objRedPlaceholder","path":"objects/objRedPlaceholder/objRedPlaceholder.yy",},},
     {"id":{"name":"objSolidTemplate","path":"objects/objSolidTemplate/objSolidTemplate.yy",},},
+    {"id":{"name":"objSonar","path":"objects/objSonar/objSonar.yy",},},
     {"id":{"name":"objTrapInvertControl","path":"objects/objTrapInvertControl/objTrapInvertControl.yy",},},
     {"id":{"name":"objTrapSlow","path":"objects/objTrapSlow/objTrapSlow.yy",},},
     {"id":{"name":"objTrapStagger","path":"objects/objTrapStagger/objTrapStagger.yy",},},
@@ -165,6 +167,7 @@
     {"id":{"name":"sprRollSideDust","path":"sprites/sprRollSideDust/sprRollSideDust.yy",},},
     {"id":{"name":"sprSlime","path":"sprites/sprSlime/sprSlime.yy",},},
     {"id":{"name":"sprSlime2","path":"sprites/sprSlime2/sprSlime2.yy",},},
+    {"id":{"name":"sprSonar","path":"sprites/sprSonar/sprSonar.yy",},},
     {"id":{"name":"sprSpawnerFxPlaceholder","path":"sprites/sprSpawnerFxPlaceholder/sprSpawnerFxPlaceholder.yy",},},
     {"id":{"name":"sprSpawnFx","path":"sprites/sprSpawnFx/sprSpawnFx.yy",},},
     {"id":{"name":"sprSpeedCone","path":"sprites/sprSpeedCone/sprSpeedCone.yy",},},
@@ -184,8 +187,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rmPathTest","path":"rooms/rmPathTest/rmPathTest.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rmLightTest","path":"rooms/rmLightTest/rmLightTest.yy",},},
   ],
   "templateType":"game",

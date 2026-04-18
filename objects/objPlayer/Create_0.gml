@@ -10,3 +10,7 @@ deathScreenAlpha = 0
 isHoveringButton = false;
 
 isControlsInverted = false;
+
+inputPrevent = 0;
+
+srcCreateLight(x, y, 2, 0.01, self);

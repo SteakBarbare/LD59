@@ -2,6 +2,7 @@ var moveRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
 var moveLeft = keyboard_check(vk_left) or keyboard_check(ord("A")) or keyboard_check(ord("Q"));
 var moveDown = keyboard_check(vk_down) or keyboard_check(ord("S"));
 var moveUp = keyboard_check(vk_up) or keyboard_check(ord("Z")) or keyboard_check(ord("W"));
+var carrySonar = keyboard_check(ord("F"));
 
 if (isControlsInverted) {
     var temp = moveRight;
@@ -14,19 +15,19 @@ if (isControlsInverted) {
 
 if (playerState != "Stagger") {
     if (moveUp) {
-        var currentSolid = instance_position(x, y - moveSpeed, objSolidTemplate);
+        var currentSolid = instance_position(x, y - moveSpeed, objBasicSolids);
         if (!currentSolid || (currentSolid && !currentSolid.haveColision)) y -= moveSpeed;
     }
 	if (moveDown) {
-	    var currentSolid = instance_position(x, y + moveSpeed, objSolidTemplate);
+	    var currentSolid = instance_position(x, y + moveSpeed, objBasicSolids);
 	    if (!currentSolid || (currentSolid && !currentSolid.haveColision)) y += moveSpeed;
 	}
     if (moveRight) {
-        var currentSolid = instance_position(x + moveSpeed, y, objSolidTemplate);
+        var currentSolid = instance_position(x + moveSpeed, y, objBasicSolids);
         if (!currentSolid || (currentSolid && !currentSolid.haveColision)) x += moveSpeed;
     }
     if (moveLeft) {
-        var currentSolid = instance_position(x - moveSpeed, y, objSolidTemplate);
+        var currentSolid = instance_position(x - moveSpeed, y, objBasicSolids);
         if (!currentSolid || (currentSolid && !currentSolid.haveColision)) x -= moveSpeed;
     }
 }
@@ -60,4 +61,20 @@ switch (playerState) {
     default:
         playerState = "Idle";
         break;
+}
+
+// SONAR
+if (carrySonar && inputPrevent <= 0) {
+	if (!instance_exists(objSonar)) return
+	with (objSonar) {
+		if (place_meeting(x, y, objPlayer)) {
+			isCarried = !isCarried
+		}
+	}
+	inputPrevent = game_get_speed(gamespeed_fps) / 6;
+}
+
+// Managing input
+if (inputPrevent > 0) {
+	inputPrevent -= 1;	
 }
