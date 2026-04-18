@@ -1,0 +1,1 @@
+other.playerState = "Death";

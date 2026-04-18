@@ -39,8 +39,13 @@ switch (playerState) {
         }
         break;
     
-    case "Death":
-        break;
+	case "Death":
+	    if (deathScreenAlpha < 1) deathScreenAlpha += 0.05;
+    
+	    if (isHoveringButton && mouse_check_button_pressed(mb_left)) {
+	        room_restart();
+	    }
+	    break;
     
     default:
         playerState = "Idle";

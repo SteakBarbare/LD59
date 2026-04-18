@@ -5,3 +5,6 @@ playerState = "idle";
 
 isStagger = false;
 stagTime = 1
+
+deathScreenAlpha = 0
+isHoveringButton = false;
