@@ -43,11 +43,12 @@
   "resources":[
     {"id":{"name":"objBasicSolids","path":"objects/objBasicSolids/objBasicSolids.yy",},},
     {"id":{"name":"objCore","path":"objects/objCore/objCore.yy",},},
-    {"id":{"name":"Object16","path":"objects/Object16/Object16.yy",},},
+    {"id":{"name":"objDigiCodeManager","path":"objects/objDigiCodeManager/objDigiCodeManager.yy",},},
     {"id":{"name":"objGreenPlaceholder","path":"objects/objGreenPlaceholder/objGreenPlaceholder.yy",},},
     {"id":{"name":"objGrid","path":"objects/objGrid/objGrid.yy",},},
     {"id":{"name":"objLibouloule","path":"objects/objLibouloule/objLibouloule.yy",},},
     {"id":{"name":"objLightTemplate","path":"objects/objLightTemplate/objLightTemplate.yy",},},
+    {"id":{"name":"objPaperSpawn","path":"objects/objPaperSpawn/objPaperSpawn.yy",},},
     {"id":{"name":"objParticlesEmitter","path":"objects/objParticlesEmitter/objParticlesEmitter.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"objPurplePlaceholder","path":"objects/objPurplePlaceholder/objPurplePlaceholder.yy",},},

@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Object16",
-  "eventList":[],
+  "%Name":"objDigiCodeManager",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object16",
+  "name":"objDigiCodeManager",
   "overriddenProperties":[],
   "parent":{
     "name":"Templates",
