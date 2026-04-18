@@ -11,12 +11,13 @@ switch (state) {
 		break;
 		
 	case "Move":
+		show_debug_message($"path_position : {path_position}");
+	
 		if (path_position >= 1) {
 			state = "Idle";
 			
-			if (isRoaming) {
-				isRoaming = false;	
-			}
+			isRoaming = false;
+			isTriggered = false;
 		}
 		break;
 	
@@ -49,11 +50,20 @@ if (!isRoaming && !isTriggered) {
 	}
 }
 
-
-//if (!isTriggered) {
-//	mp_grid_path(objGrid.pathGrid, daWae, x, y, mouse_x, mouse_y, true);
-//	path_start(daWae, moveSpeed, path_action_stop, false);
-//}
+if (!isTriggered && (state == "Idle" || isRoaming)) {
+	var playerDetected = distance_to_object(objPlayer) < detectionZone;
+	if (playerDetected) {
+		isTriggered = true;
+		isRoaming = false;
+	
+		objPlayer.moveSpeed = objPlayer.baseMoveSpeed * 1.5;
+		moveSpeed = objPlayer.baseMoveSpeed * 1.3;
+		createPath(objPlayer.x, objPlayer.y);
+	} else {
+		objPlayer.moveSpeed = objPlayer.baseMoveSpeed;
+		moveSpeed = objPlayer.baseMoveSpeed;
+	}
+}
 
 
 

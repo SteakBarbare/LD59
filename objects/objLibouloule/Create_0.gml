@@ -5,6 +5,8 @@ state = "Idle";
 isTriggered = false;
 isRoaming = false;
 
+detectionZone = 150;
+
 maximumSearchPath = 500;
 
 function createPath(xToGo, yToGo) {
