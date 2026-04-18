@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"objGreenPlaceholder",
+  "%Name":"objBasicSolids",
   "eventList":[],
   "managed":true,
-  "name":"objGreenPlaceholder",
+  "name":"objBasicSolids",
   "overriddenProperties":[],
   "parent":{
-    "name":"Placeholders",
-    "path":"folders/Objects/Placeholders.yy",
+    "name":"Templates",
+    "path":"folders/Objects/Templates.yy",
   },
   "parentObjectId":{
-    "name":"objBasicSolids",
-    "path":"objects/objBasicSolids/objBasicSolids.yy",
+    "name":"objSolidTemplate",
+    "path":"objects/objSolidTemplate/objSolidTemplate.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprGreenRec",
-    "path":"sprites/sprGreenRec/sprGreenRec.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

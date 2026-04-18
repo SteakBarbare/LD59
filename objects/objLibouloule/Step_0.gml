@@ -1,3 +1,5 @@
+event_inherited();
+
 if (!instance_exists(objPlayer)) return;
 
 var click = mouse_check_button_pressed(mb_left);
@@ -17,6 +19,7 @@ switch (state) {
 			
 			isRoaming = false;
 			isTriggered = false;
+			detectSignal = false;
 		}
 		break;
 	
@@ -25,7 +28,16 @@ switch (state) {
 		break;
 }
 
-if (!isRoaming && !isTriggered) {	
+if (detectSignal) {
+	if (!instance_exists(objSonar)) return;
+	show_debug_message("SuuS cul")
+	path_end();
+	
+	moveSpeed = objPlayer.defaultMoveSpeed * 1.6;
+	createPath(objSonar.emittedX, objSonar.emittedY);
+}
+
+if (!isRoaming && !isTriggered && !detectSignal) {
 	var floorX = objPlayer.x < midRoomWidth ? 0 : midRoomWidth;
 	var floorY = objPlayer.y < midRoomHeight ? 0 : midRoomHeight;
 	var ceilX = floorX == 0 ? midRoomWidth : room_width;
@@ -37,7 +49,7 @@ if (!isRoaming && !isTriggered) {
 	repeat(maximumSearchPath) {
 		determinedX = irandom_range(floorX, ceilX);
 		determinedY = irandom_range(floorY, ceilY);
-		if (!place_meeting(determinedX, determinedY, objSolidTemplate)) {
+		if (!place_meeting(determinedX, determinedY, objBasicSolids)) {
 			validPosition = true;
 			break;
 		}
@@ -56,6 +68,7 @@ if (!isTriggered && (state == "Idle" || isRoaming)) {
 		if (isInDistanceForPath(objPlayer.x, objPlayer.y)) {
 			isTriggered = true;
 			isRoaming = false;
+			detectSignal = false;
 	
 			objPlayer.moveSpeed = objPlayer.defaultMoveSpeed * 1.5;
 			moveSpeed = objPlayer.defaultMoveSpeed * 1.3;

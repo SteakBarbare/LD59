@@ -10,8 +10,8 @@
     "path":"folders/Objects/Placeholders.yy",
   },
   "parentObjectId":{
-    "name":"objSolidTemplate",
-    "path":"objects/objSolidTemplate/objSolidTemplate.yy",
+    "name":"objBasicSolids",
+    "path":"objects/objBasicSolids/objBasicSolids.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
