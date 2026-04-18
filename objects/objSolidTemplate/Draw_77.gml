@@ -11,7 +11,3 @@ if(setOutline){
 	draw_self();
 	shader_reset();
 }
-
-
-
-

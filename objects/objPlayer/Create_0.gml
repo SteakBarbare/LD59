@@ -1,4 +1,4 @@
-defaultMoveSpeed = 4; 
+defaultMoveSpeed = 8; 
 moveSpeed = defaultMoveSpeed
 
 playerState = "idle";
