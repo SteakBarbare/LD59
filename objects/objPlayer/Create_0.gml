@@ -8,3 +8,5 @@ stagTime = 1
 
 deathScreenAlpha = 0
 isHoveringButton = false;
+
+isControlsInverted = false;

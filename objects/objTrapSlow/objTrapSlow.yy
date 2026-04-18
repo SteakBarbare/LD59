@@ -6,7 +6,9 @@
   ],
   "managed":true,
   "name":"objTrapSlow",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objTrapTemplate","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"propertyId":{"name":"effect","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Slow",},
+  ],
   "parent":{
     "name":"Templates",
     "path":"folders/Objects/Templates.yy",

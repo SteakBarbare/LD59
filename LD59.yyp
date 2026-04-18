@@ -42,6 +42,7 @@
   "name":"LD59",
   "resources":[
     {"id":{"name":"objCore","path":"objects/objCore/objCore.yy",},},
+    {"id":{"name":"Object16","path":"objects/Object16/Object16.yy",},},
     {"id":{"name":"objGreenPlaceholder","path":"objects/objGreenPlaceholder/objGreenPlaceholder.yy",},},
     {"id":{"name":"objGrid","path":"objects/objGrid/objGrid.yy",},},
     {"id":{"name":"objLibouloule","path":"objects/objLibouloule/objLibouloule.yy",},},
@@ -51,6 +52,7 @@
     {"id":{"name":"objPurplePlaceholder","path":"objects/objPurplePlaceholder/objPurplePlaceholder.yy",},},
     {"id":{"name":"objRedPlaceholder","path":"objects/objRedPlaceholder/objRedPlaceholder.yy",},},
     {"id":{"name":"objSolidTemplate","path":"objects/objSolidTemplate/objSolidTemplate.yy",},},
+    {"id":{"name":"objTrapInvertControl","path":"objects/objTrapInvertControl/objTrapInvertControl.yy",},},
     {"id":{"name":"objTrapSlow","path":"objects/objTrapSlow/objTrapSlow.yy",},},
     {"id":{"name":"objTrapStagger","path":"objects/objTrapStagger/objTrapStagger.yy",},},
     {"id":{"name":"objTrapTemplate","path":"objects/objTrapTemplate/objTrapTemplate.yy",},},
