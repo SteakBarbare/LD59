@@ -15,3 +15,37 @@ if (moveRight) {
 if (moveLeft) {
 	x -= moveSpeed	
 }
+
+
+switch (playerState) {
+	case "Idle":
+		show_debug_message($"salope")
+		break;
+	
+	case "Walk":
+	
+		break;
+	
+	case "Sprint":
+	
+		break;
+	
+	case "Stagger":
+		show_debug_message("pute")
+		if (!isStagger) {
+			alarm[0] = game_get_speed(gamespeed_fps * stagTime);
+			isStagger = true;
+		}
+		break;
+		
+	
+	case "Death":
+	
+		break;
+		
+	default:
+		playerState = "Idle";
+		break;
+	
+}
+
