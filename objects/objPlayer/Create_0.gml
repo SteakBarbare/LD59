@@ -1,3 +1,4 @@
+baseMoveSpeed = 4;
 moveSpeed = 4; 
 
 playerState = "idle";
