@@ -3,6 +3,15 @@ var moveLeft = keyboard_check(vk_left) or keyboard_check(ord("A")) or keyboard_c
 var moveDown = keyboard_check(vk_down) or keyboard_check(ord("S"));
 var moveUp = keyboard_check(vk_up) or keyboard_check(ord("Z")) or keyboard_check(ord("W"));
 
+if (isControlsInverted) {
+    var temp = moveRight;
+    moveRight = moveLeft;
+    moveLeft = temp;
+    temp = moveUp;
+    moveUp = moveDown;
+    moveDown = temp;
+}
+
 if (playerState != "Stagger") {
     if (moveUp) {
         var currentSolid = instance_position(x, y - moveSpeed, objSolidTemplate);
@@ -21,6 +30,7 @@ if (playerState != "Stagger") {
         if (!currentSolid || (currentSolid && !currentSolid.haveColision)) x -= moveSpeed;
     }
 }
+
 
 switch (playerState) {
     case "Idle":
