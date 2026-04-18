@@ -54,6 +54,7 @@
     {"id":{"name":"objTrapSlow","path":"objects/objTrapSlow/objTrapSlow.yy",},},
     {"id":{"name":"objTrapStagger","path":"objects/objTrapStagger/objTrapStagger.yy",},},
     {"id":{"name":"objTrapTemplate","path":"objects/objTrapTemplate/objTrapTemplate.yy",},},
+    {"id":{"name":"objTuto","path":"objects/objTuto/objTuto.yy",},},
     {"id":{"name":"partSonarBurst","path":"particles/partSonarBurst/partSonarBurst.yy",},},
     {"id":{"name":"rmLightTest","path":"rooms/rmLightTest/rmLightTest.yy",},},
     {"id":{"name":"rmPathTest","path":"rooms/rmPathTest/rmPathTest.yy",},},
@@ -169,6 +170,7 @@
     {"id":{"name":"sprStaggerFx","path":"sprites/sprStaggerFx/sprStaggerFx.yy",},},
     {"id":{"name":"sprTestPlayer","path":"sprites/sprTestPlayer/sprTestPlayer.yy",},},
     {"id":{"name":"sprTorchEffect","path":"sprites/sprTorchEffect/sprTorchEffect.yy",},},
+    {"id":{"name":"sprTutoPlaceholder","path":"sprites/sprTutoPlaceholder/sprTutoPlaceholder.yy",},},
     {"id":{"name":"sprWalkDustSide1","path":"sprites/sprWalkDustSide1/sprWalkDustSide1.yy",},},
     {"id":{"name":"sprWalkDustSide2","path":"sprites/sprWalkDustSide2/sprWalkDustSide2.yy",},},
     {"id":{"name":"sprWoodRubbish","path":"sprites/sprWoodRubbish/sprWoodRubbish.yy",},},
@@ -179,9 +181,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rmPathTest","path":"rooms/rmPathTest/rmPathTest.yy",},},
     {"roomId":{"name":"rmLightTest","path":"rooms/rmLightTest/rmLightTest.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
