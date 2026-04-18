@@ -1,7 +1,6 @@
 /// @description Baleks
 
 srcNewParticle(partSonarBurst, objPurplePlaceholder.x, objPurplePlaceholder.y, false, 1, noone, true);
-srcCreateLight(x, y, 1, 0.01, noone, sprLightHaloSmouf, 1, true);
 
 with(objSolidTemplate){
 
