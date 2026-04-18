@@ -9,10 +9,7 @@
     "name":"Placeholders",
     "path":"folders/Objects/Placeholders.yy",
   },
-  "parentObjectId":{
-    "name":"objEnvironmentTemplate",
-    "path":"objects/objEnvironmentTemplate/objEnvironmentTemplate.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

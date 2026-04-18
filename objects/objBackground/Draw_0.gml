@@ -1,1 +1,0 @@
-BackgroundDraw(sprBgTempNormal);

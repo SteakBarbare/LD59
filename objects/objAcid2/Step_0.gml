@@ -1,7 +1,0 @@
-if(isDangerous){
-	if(image_index > 5){
-		image_index = 1;
-	}
-}else{
-	image_index = 6;
-}

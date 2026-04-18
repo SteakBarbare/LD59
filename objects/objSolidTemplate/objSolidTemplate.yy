@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objPurplePlaceholder",
+  "%Name":"objSolidTemplate",
   "eventList":[],
   "managed":true,
-  "name":"objPurplePlaceholder",
+  "name":"objSolidTemplate",
   "overriddenProperties":[],
   "parent":{
-    "name":"Placeholders",
-    "path":"folders/Objects/Placeholders.yy",
+    "name":"Templates",
+    "path":"folders/Objects/Templates.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprPurpleRec",
-    "path":"sprites/sprPurpleRec/sprPurpleRec.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
