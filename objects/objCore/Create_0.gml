@@ -9,3 +9,5 @@ cameraWidth = camera_get_view_width(camera);
 cameraHeight = camera_get_view_height(camera);
 
 lightSurface = surface_create(window_get_width(), window_get_height());
+
+shadowAlpha = 1;

@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-srcCreateLight(x, y, 1, 0.01, self, sprLightHaloSmouf, 1, true);
+srcCreateLight(x, y, 2, 0.01, self);
 
