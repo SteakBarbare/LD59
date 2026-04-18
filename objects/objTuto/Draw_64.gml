@@ -4,7 +4,7 @@ if (distance_to_object(objPlayer) < interactRange && !showTuto) {
     var guiY = y * display_get_gui_height() / camera_get_view_height(view_camera[0]);
     draw_set_halign(fa_center);
     draw_set_color(c_white);
-    draw_text(guiX, guiY - 40, "E - Interagir");
+    draw_text(guiX, guiY - 40, "E - Interact");
 }
 
 if (showTuto || tutoOpening) {
