@@ -53,12 +53,14 @@ if (!isTriggered && (state == "Idle" || isRoaming)) {
 	var distanceFromPlayer = distance_to_object(objPlayer);
 	var playerDetected = distanceFromPlayer < detectionZone && distanceFromPlayer > 0;
 	if (playerDetected) {
-		isTriggered = true;
-		isRoaming = false;
+		if (isInDistanceForPath(objPlayer.x, objPlayer.y)) {
+			isTriggered = true;
+			isRoaming = false;
 	
-		objPlayer.moveSpeed = objPlayer.baseMoveSpeed * 1.5;
-		moveSpeed = objPlayer.baseMoveSpeed * 1.3;
-		createPath(objPlayer.x, objPlayer.y);
+			objPlayer.moveSpeed = objPlayer.baseMoveSpeed * 1.5;
+			moveSpeed = objPlayer.baseMoveSpeed * 1.3;
+			createPath(objPlayer.x, objPlayer.y);
+		}
 	} else {
 		objPlayer.moveSpeed = objPlayer.baseMoveSpeed;
 		moveSpeed = objPlayer.baseMoveSpeed;
