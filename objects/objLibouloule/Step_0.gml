@@ -57,13 +57,13 @@ if (!isTriggered && (state == "Idle" || isRoaming)) {
 			isTriggered = true;
 			isRoaming = false;
 	
-			objPlayer.moveSpeed = objPlayer.baseMoveSpeed * 1.5;
-			moveSpeed = objPlayer.baseMoveSpeed * 1.3;
+			objPlayer.moveSpeed = objPlayer.defaultMoveSpeed * 1.5;
+			moveSpeed = objPlayer.defaultMoveSpeed * 1.3;
 			createPath(objPlayer.x, objPlayer.y);
 		}
 	} else {
-		objPlayer.moveSpeed = objPlayer.baseMoveSpeed;
-		moveSpeed = objPlayer.baseMoveSpeed;
+		objPlayer.moveSpeed = objPlayer.defaultMoveSpeed;
+		moveSpeed = objPlayer.defaultMoveSpeed;
 	}
 }
 

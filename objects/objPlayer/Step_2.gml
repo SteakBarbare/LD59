@@ -1,0 +1,1 @@
+moveSpeed = defaultMoveSpeed;
