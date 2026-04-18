@@ -1,0 +1,1 @@
+srcCleanSurface(srfcShadow);

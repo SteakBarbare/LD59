@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srcNewPointLight",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srcNewPointLight",
+  "parent":{
+    "name":"NormalMapping",
+    "path":"folders/Srcipts/NormalMapping.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
