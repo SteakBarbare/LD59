@@ -10,7 +10,6 @@ if (playerState != "Stagger") {
     }
 	if (moveDown) {
 	    var currentSolid = instance_position(x, y + moveSpeed, objSolidTemplate);
-	    show_debug_message("DOWN - inst: " + string(currentSolid) + " haveColision: " + string(currentSolid != noone ? currentSolid.haveColision : "noone"));
 	    if (!currentSolid || (currentSolid && !currentSolid.haveColision)) y += moveSpeed;
 	}
     if (moveRight) {
