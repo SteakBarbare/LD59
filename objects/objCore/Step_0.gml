@@ -1,16 +1,10 @@
-var cam = view_camera[0];
-
-// Camera size
-var cam_w = camera_get_view_width(cam);
-var cam_h = camera_get_view_height(cam);
-
 // Center on player
-var cam_x = objPlayer.x - cam_w / 2;
-var cam_y = objPlayer.y - cam_h / 2;
+camX = objPlayer.x - cameraWidth / 2;
+camY = objPlayer.y - cameraHeight / 2;
 
 // Clamp to room bounds
-cam_x = clamp(cam_x, 0, room_width - cam_w);
-cam_y = clamp(cam_y, 0, room_height - cam_h);
+camX = clamp(camX, 0, room_width - cameraWidth);
+camY = clamp(camY, 0, room_height - cameraHeight);
 
 // Apply
-camera_set_view_pos(cam, cam_x, cam_y);
+camera_set_view_pos(camera, camX, camY);
