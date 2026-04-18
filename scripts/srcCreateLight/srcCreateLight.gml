@@ -7,10 +7,11 @@
 /// @param  {Asset.GMSprite}	lightSprite			Used to change the sprite of the light halo
 /// @description									Create a new light
 function srcCreateLight(xPos, yPos, scale, flicker, followedEntity = noone, lightSprite = sprLightHaloSmouf){
-	instance_create_depth(xPos, yPos, -yPos, objLightTemplate, {
+	var newLight = instance_create_depth(xPos, yPos, -yPos, objLightTemplate, {
 		scale: scale,
-		flicker: flicker,
-		followedEntity: followedEntity,
-		lightSprite: lightSprite
+		flicker: flicker
 	})
+	
+	newLight.followedEntity = followedEntity;
+	newLight.lightSprite = lightSprite;
 }

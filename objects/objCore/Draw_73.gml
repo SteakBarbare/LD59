@@ -18,7 +18,7 @@ camera_apply(camera);
 gpu_set_blendmode(bm_subtract);
 
 with(objLightTemplate){
-	draw_sprite(sprLightHaloSmouf, 0, x, y);	
+	draw_sprite_ext(lightSprite, 0, x, y, scale, scale, 0, c_white, 1);	
 }
 
 gpu_set_blendmode(bm_normal);

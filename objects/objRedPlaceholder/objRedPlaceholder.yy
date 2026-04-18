@@ -9,7 +9,10 @@
     "name":"Placeholders",
     "path":"folders/Objects/Placeholders.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objSolidTemplate",
+    "path":"objects/objSolidTemplate/objSolidTemplate.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
