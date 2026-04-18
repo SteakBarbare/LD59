@@ -18,7 +18,9 @@ camera_apply(camera);
 gpu_set_blendmode(bm_subtract);
 
 with(objLightTemplate){
-	draw_sprite_ext(lightSprite, 0, x, y, scale, scale, 0, c_white, 1);	
+	var flickerDir = sign(random_range(-1, 1));
+	var flickerValue = random(flicker);
+	draw_sprite_ext(lightSprite, 0, x, y, scale + (flickerDir * flickerValue), scale + (flickerDir * flickerValue), 0, c_white, 1);	
 }
 
 gpu_set_blendmode(bm_normal);
