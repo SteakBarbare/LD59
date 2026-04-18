@@ -1,0 +1,1 @@
+daWae = path_add();
