@@ -30,7 +30,6 @@ switch (state) {
 
 if (detectSignal) {
 	if (!instance_exists(objSonar)) return;
-	show_debug_message("SuuS cul")
 	path_end();
 	
 	moveSpeed = objPlayer.defaultMoveSpeed * 1.6;
