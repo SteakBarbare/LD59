@@ -1,0 +1,2 @@
+isStagger = false;
+playerState = "Idle"
