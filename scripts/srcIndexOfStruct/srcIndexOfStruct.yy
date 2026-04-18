@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srcIndexOfStruct",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srcIndexOfStruct",
+  "parent":{
+    "name":"Utils",
+    "path":"folders/Srcipts/Utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

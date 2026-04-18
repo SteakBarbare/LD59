@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srcCopyArray",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srcCopyArray",
+  "parent":{
+    "name":"Utils",
+    "path":"folders/Srcipts/Utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

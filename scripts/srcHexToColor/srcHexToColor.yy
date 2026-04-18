@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srcHexToColor",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srcHexToColor",
+  "parent":{
+    "name":"Utils",
+    "path":"folders/Srcipts/Utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

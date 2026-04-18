@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srcCheckDeckSize",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srcCheckDeckSize",
+  "parent":{
+    "name":"Utils",
+    "path":"folders/Srcipts/Utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

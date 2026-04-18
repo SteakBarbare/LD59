@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srcRectangleInScreen",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srcRectangleInScreen",
+  "parent":{
+    "name":"Utils",
+    "path":"folders/Srcipts/Utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

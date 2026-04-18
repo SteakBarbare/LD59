@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srcStringToHexa",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srcStringToHexa",
+  "parent":{
+    "name":"Utils",
+    "path":"folders/Srcipts/Utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

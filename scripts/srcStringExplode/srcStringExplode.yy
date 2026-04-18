@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srcStringExplode",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srcStringExplode",
+  "parent":{
+    "name":"Utils",
+    "path":"folders/Srcipts/Utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

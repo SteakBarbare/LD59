@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srcGetNumberItemsInventory",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srcGetNumberItemsInventory",
+  "parent":{
+    "name":"Utils",
+    "path":"folders/Srcipts/Utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

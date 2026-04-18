@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srcCleanSurface",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srcCleanSurface",
+  "parent":{
+    "name":"surface",
+    "path":"folders/Srcipts/Utils/surface.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
