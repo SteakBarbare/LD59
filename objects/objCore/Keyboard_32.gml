@@ -1,5 +1,7 @@
 /// @description Baleks
 
 with(objSolidTemplate){
-	setOutline = true;
+
+	var distanceFromOrigin = point_distance(objPurplePlaceholder.x, objPurplePlaceholder.y, x, y);
+	alarm[0] = distanceFromOrigin / 10;
 }
