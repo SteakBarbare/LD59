@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srcNewShadowCaster",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srcNewShadowCaster",
+  "parent":{
+    "name":"NormalMapping",
+    "path":"folders/Srcipts/NormalMapping.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
