@@ -1,1 +1,0 @@
-isDangerous = false;

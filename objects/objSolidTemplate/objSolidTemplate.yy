@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"objGreenPlaceholder",
-  "eventList":[],
+  "%Name":"objSolidTemplate",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"objGreenPlaceholder",
+  "name":"objSolidTemplate",
   "overriddenProperties":[],
   "parent":{
-    "name":"Placeholders",
-    "path":"folders/Objects/Placeholders.yy",
+    "name":"Templates",
+    "path":"folders/Objects/Templates.yy",
   },
-  "parentObjectId":{
-    "name":"objSolidTemplate",
-    "path":"objects/objSolidTemplate/objSolidTemplate.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprGreenRec",
-    "path":"sprites/sprGreenRec/sprGreenRec.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

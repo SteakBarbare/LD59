@@ -1,1 +1,0 @@
-showShadowCaster = isDebugOn && !showShadowCaster;
