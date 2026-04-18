@@ -3,3 +3,5 @@
 
 followedEntity = noone;
 lightSprite = sprLightHaloSmouf;
+
+isDisappearing = false;

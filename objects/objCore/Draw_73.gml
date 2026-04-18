@@ -20,7 +20,7 @@ gpu_set_blendmode(bm_subtract);
 with(objLightTemplate){
 	var flickerDir = sign(random_range(-1, 1));
 	var flickerValue = random(flicker);
-	draw_sprite_ext(lightSprite, 0, x, y, scale + (flickerDir * flickerValue), scale + (flickerDir * flickerValue), 0, c_white, 1);	
+	draw_sprite_ext(lightSprite, 0, x, y, scale + (flickerDir * flickerValue), scale + (flickerDir * flickerValue), 0, c_white, alphaLight);	
 }
 
 gpu_set_blendmode(bm_normal);
