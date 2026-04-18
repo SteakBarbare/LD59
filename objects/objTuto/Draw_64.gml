@@ -12,5 +12,5 @@ if (showTuto || tutoOpening) {
     var sh = display_get_gui_height();
     var w = 400;
     var h = 565 * tutoScale;
-    draw_sprite_stretched(sprTutoPlaceholder, 0, sw/2 - w/2, sh/2 - h/2, w, h);
+    draw_sprite_stretched(sprTuto, 0, sw/2 - w/2, sh/2 - h/2, w, h);
 }

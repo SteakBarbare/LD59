@@ -170,6 +170,7 @@
     {"id":{"name":"sprStaggerFx","path":"sprites/sprStaggerFx/sprStaggerFx.yy",},},
     {"id":{"name":"sprTestPlayer","path":"sprites/sprTestPlayer/sprTestPlayer.yy",},},
     {"id":{"name":"sprTorchEffect","path":"sprites/sprTorchEffect/sprTorchEffect.yy",},},
+    {"id":{"name":"sprTuto","path":"sprites/sprTuto/sprTuto.yy",},},
     {"id":{"name":"sprTutoPlaceholder","path":"sprites/sprTutoPlaceholder/sprTutoPlaceholder.yy",},},
     {"id":{"name":"sprWalkDustSide1","path":"sprites/sprWalkDustSide1/sprWalkDustSide1.yy",},},
     {"id":{"name":"sprWalkDustSide2","path":"sprites/sprWalkDustSide2/sprWalkDustSide2.yy",},},
