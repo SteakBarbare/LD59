@@ -1,6 +1,7 @@
 /// @description Light Variables
 
 global.partSystem = part_system_create();
+global.particouilleSys = part_system_create();
 application_surface_draw_enable(false);
 
 camera = view_get_camera(view_camera[0]);

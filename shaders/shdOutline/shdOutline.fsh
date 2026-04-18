@@ -8,6 +8,7 @@ varying vec4 v_vColour;
 
 uniform float pixel1Height;
 uniform float pixel1Width;
+uniform float echo_alpha;
 
 void main(){
 	
@@ -26,8 +27,9 @@ void main(){
 		texture2D(gm_BaseTexture, v_vTexcoord + offsety).a >= 0.9 ||
 		texture2D(gm_BaseTexture, v_vTexcoord - offsety).a >= 0.9));
 	
-
+	if(pixelColAdd.a > 0.0){
+		pixelColAdd.a = min(pixelColAdd.a, echo_alpha);
+	}
 	
-	
-	gl_FragColor = v_vColour * texture2D( gm_BaseTexture, v_vTexcoord ) + pixelColAdd;
+	gl_FragColor = pixelColAdd;
 }
