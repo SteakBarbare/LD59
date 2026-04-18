@@ -14,6 +14,7 @@ if(setOutline){
 		if(outlineAlpha <= 0){
 			outlineAlpha = 0;
 			setOutline = false;
+			
 		}
 	}
 }
