@@ -4,25 +4,25 @@ var moveDown = keyboard_check(vk_down) or keyboard_check(ord("S"));
 var moveUp = keyboard_check(vk_up) or keyboard_check(ord("Z")) or keyboard_check(ord("W"));
 
 if (moveUp) {
-	if (!place_meeting(x, y - moveSpeed, objEnvironmentTemplate)){
+	if (!place_meeting(x, y - moveSpeed, objSolidTemplate)){
 		y -= moveSpeed
 	}
 }
 
 if (moveDown) { 
-	if (!place_meeting(x, y + moveSpeed, objEnvironmentTemplate)) {
+	if (!place_meeting(x, y + moveSpeed, objSolidTemplate)) {
 		y += moveSpeed
 	}
 }
 
 if (moveRight) {
-	if (!place_meeting(x + moveSpeed, y, objEnvironmentTemplate)) {
+	if (!place_meeting(x + moveSpeed, y, objSolidTemplate)) {
 		x += moveSpeed
 	}
 }
 
 if (moveLeft) {
-	if (!place_meeting(x - moveSpeed, y, objEnvironmentTemplate)) {
+	if (!place_meeting(x - moveSpeed, y, objSolidTemplate)) {
 		x -= moveSpeed	
 	}
 }
