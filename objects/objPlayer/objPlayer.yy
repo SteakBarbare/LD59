@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"objPlay",
-    "path":"sprites/objPlay/objPlay.yy",
+    "name":"sprTestPlayer",
+    "path":"sprites/sprTestPlayer/sprTestPlayer.yy",
   },
   "spriteMaskId":null,
   "visible":true,
