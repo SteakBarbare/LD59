@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Light Variables
 
 global.partSystem = part_system_create();
 application_surface_draw_enable(false);

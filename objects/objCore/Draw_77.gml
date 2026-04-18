@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Shadow Background
 
 draw_surface(application_surface, 0, 0);
 
