@@ -14,6 +14,9 @@ cameraWidth = camera_get_view_width(camera);
 cameraHeight = camera_get_view_height(camera);
 secondCameraOn = false;
 
+// Tutorial Check
+allDocRetrieved = false;
+
 camX = objPlayer.x - cameraWidth / 2;
 camY = objPlayer.y - cameraHeight / 2;
 

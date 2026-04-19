@@ -27,7 +27,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"docToShow","filters":[],"listItems":[],"multiselect":false,"name":"docToShow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sprTuto","path":"sprites/sprTuto/sprTuto.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprTuto","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

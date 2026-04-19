@@ -210,6 +210,7 @@
     {"id":{"name":"sprNeutralCircleBack","path":"sprites/sprNeutralCircleBack/sprNeutralCircleBack.yy",},},
     {"id":{"name":"sprNeutralCircleFront","path":"sprites/sprNeutralCircleFront/sprNeutralCircleFront.yy",},},
     {"id":{"name":"sprNewCurseFx","path":"sprites/sprNewCurseFx/sprNewCurseFx.yy",},},
+    {"id":{"name":"sprOnduloscope","path":"sprites/sprOnduloscope/sprOnduloscope.yy",},},
     {"id":{"name":"sprPapersCode","path":"sprites/sprPapersCode/sprPapersCode.yy",},},
     {"id":{"name":"sprParryFx","path":"sprites/sprParryFx/sprParryFx.yy",},},
     {"id":{"name":"sprPlankPart","path":"sprites/sprPlankPart/sprPlankPart.yy",},},
