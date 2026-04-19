@@ -7,7 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_66283F4E","path":"rooms/rmGame/rmGame.yy",},
-    {"name":"inst_25D43EEB","path":"rooms/rmGame/rmGame.yy",},
     {"name":"inst_51B13AFA","path":"rooms/rmGame/rmGame.yy",},
     {"name":"inst_71FD69E3","path":"rooms/rmGame/rmGame.yy",},
     {"name":"inst_1F453247","path":"rooms/rmGame/rmGame.yy",},
@@ -272,7 +271,6 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Scripts","depth":0,"effectEnabled":true,"effectType":null,"gridX":200,"gridY":200,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_25D43EEB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25D43EEB","objectId":{"name":"objGrid","path":"objects/objGrid/objGrid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_66283F4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_66283F4E","objectId":{"name":"objCore","path":"objects/objCore/objCore.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":32.0,},
       ],"layers":[],"name":"Scripts","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Units","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
