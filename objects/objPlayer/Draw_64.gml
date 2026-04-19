@@ -27,6 +27,8 @@ if (playerState == "Death") {
     }
     
     draw_set_alpha(1);
+} else {
+	draw_set_color(c_white);	
 }
 
 //
@@ -79,5 +81,5 @@ if (isPaused) {
             game_end();
         }
     }
-    }
+}
 

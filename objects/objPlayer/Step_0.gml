@@ -115,6 +115,8 @@ switch (playerState) {
         break;
     
 	case "Death":
+		objSonar.isCarried = false;
+	
 		if(skeleton_animation_get() != "Death"){
 			skeleton_animation_set("Death");
 			image_index = 0;
@@ -129,7 +131,7 @@ switch (playerState) {
 		    if (deathScreenAlpha < 1) deathScreenAlpha += 0.05;
     
 		    if (isHoveringButton && mouse_check_button_pressed(mb_left)) {
-		        room_restart();
+		        room_restart()
 		    }
 		}
 	    break;
