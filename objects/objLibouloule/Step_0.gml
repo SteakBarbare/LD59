@@ -28,6 +28,18 @@ switch (state) {
 		break;
 }
 
+if (!isTriggered && soundTrapTriggered != noone) {
+	isRoaming = false;
+	detectSignal = false;
+	soundTrap = false;
+	
+	path_end();
+	moveSpeed = objPlayer.defaultMoveSpeed * 2.5;
+	createPath(soundTrapTriggered.x, soundTrapTriggered.y);
+	
+	soundTrapTriggered = noone;
+}
+
 if (detectSignal) {
 	if (!instance_exists(objSonar)) return;
 	path_end();
@@ -73,7 +85,7 @@ if (!isTriggered && (state == "Idle" || isRoaming)) {
 			moveSpeed = objPlayer.defaultMoveSpeed * 1.3;
 			createPath(objPlayer.x, objPlayer.y);
 		}
-	} else {
+	} else if (objPlayer.moveSpeed > objPlayer.defaultMoveSpeed) {
 		objPlayer.moveSpeed = objPlayer.defaultMoveSpeed;
 		moveSpeed = objPlayer.defaultMoveSpeed;
 	}

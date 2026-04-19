@@ -12,8 +12,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objSolidTemplate","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"propertyId":{"name":"haveColision","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"MainEntities",
+    "path":"folders/Objects/MainEntities.yy",
   },
   "parentObjectId":{
     "name":"objSolidTemplate",

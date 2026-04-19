@@ -12,8 +12,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objTrapTemplate","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"propertyId":{"name":"effect","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Stagger",},
   ],
   "parent":{
-    "name":"Templates",
-    "path":"folders/Objects/Templates.yy",
+    "name":"Traps",
+    "path":"folders/Objects/Traps.yy",
   },
   "parentObjectId":{
     "name":"objTrapTemplate",
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprGreenRec",
-    "path":"sprites/sprGreenRec/sprGreenRec.yy",
+    "name":"sprPurpleRec",
+    "path":"sprites/sprPurpleRec/sprPurpleRec.yy",
   },
   "spriteMaskId":null,
   "visible":true,

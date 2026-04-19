@@ -8,7 +8,7 @@
 /// @param  {real}				alphaLight			Alpha of the light halo (from 0 -> 1)
 /// @param  {bool}				isDisappearing		Used to istantly make the light fade away
 /// @description									Create a new light
-function srcCreateLight(xPos, yPos, scale, flicker, followedEntity = noone, lightSprite = sprLightHaloSmouf, alphaLight = 1, isDisappearing = false){
+function srcCreateLight(xPos, yPos, scale, flicker, followedEntity = noone, lightSprite = sprLightHaloSmoufBig, alphaLight = 1, isDisappearing = false){
 	var newLight = instance_create_depth(xPos, yPos, -yPos, objLightTemplate, {
 		scale: scale,
 		flicker: flicker,
