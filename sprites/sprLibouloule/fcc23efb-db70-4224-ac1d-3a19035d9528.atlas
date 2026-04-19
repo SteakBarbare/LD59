@@ -1,0 +1,30 @@
+CHAT.png
+size:2048,512
+pma:true
+Back Left Leg
+bounds:1739,296,148,191
+Back Right Leg
+bounds:1303,242,225,245
+Body
+bounds:322,262,225,350
+rotate:90
+Front Left Leg
+bounds:2,2,155,243
+rotate:90
+Front Right Leg
+bounds:674,268,219,316
+rotate:90
+Head
+bounds:1530,263,207,224
+Left Paw
+bounds:504,186,74,176
+rotate:90
+Middle Left Leg
+bounds:992,242,309,245
+Middle Right Leg
+bounds:2,159,318,328
+Right Paw
+bounds:322,180,80,180
+rotate:90
+Tail
+bounds:1889,335,110,152

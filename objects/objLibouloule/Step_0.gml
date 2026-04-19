@@ -13,6 +13,15 @@ switch (state) {
 		break;
 		
 	case "Move":
+		
+		if(x > prevX){
+			image_xscale = 0.3;
+		}else{
+			image_xscale = -0.3;
+		}
+		
+		prevX = x;
+		
 		//show_debug_message($"path_position : {path_position}");
 		if (path_position >= 1) {
 			state = "Idle";
@@ -20,6 +29,7 @@ switch (state) {
 			isRoaming = false;
 			isTriggered = false;
 			detectSignal = false;
+			soundTrap = false;
 		}
 		break;
 	
@@ -28,7 +38,7 @@ switch (state) {
 		break;
 }
 
-if (!isTriggered && soundTrapTriggered != noone) {
+if (!isTriggered && soundTrapTriggered != noone && !soundTrap) {
 	isRoaming = false;
 	detectSignal = false;
 	soundTrap = false;
@@ -40,12 +50,15 @@ if (!isTriggered && soundTrapTriggered != noone) {
 	soundTrapTriggered = noone;
 }
 
-if (detectSignal) {
+if (detectSignal && canBeTriggerBySignal) {
 	if (!instance_exists(objSonar)) return;
 	path_end();
 	
 	moveSpeed = objPlayer.defaultMoveSpeed * 1.6;
 	createPath(objSonar.emittedX, objSonar.emittedY);
+	
+	canBeTriggerBySignal = false;
+	alarm[2] = game_get_speed(gamespeed_fps);
 }
 
 if (!isRoaming && !isTriggered && !detectSignal) {
