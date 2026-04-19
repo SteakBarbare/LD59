@@ -169,6 +169,7 @@
     {"id":{"name":"sprEmpty","path":"sprites/sprEmpty/sprEmpty.yy",},},
     {"id":{"name":"sprEnemyCircleBack","path":"sprites/sprEnemyCircleBack/sprEnemyCircleBack.yy",},},
     {"id":{"name":"sprEnemyCircleFront","path":"sprites/sprEnemyCircleFront/sprEnemyCircleFront.yy",},},
+    {"id":{"name":"sprFakeTexture","path":"sprites/sprFakeTexture/sprFakeTexture.yy",},},
     {"id":{"name":"sprFavorFx","path":"sprites/sprFavorFx/sprFavorFx.yy",},},
     {"id":{"name":"sprFire","path":"sprites/sprFire/sprFire.yy",},},
     {"id":{"name":"sprFire2","path":"sprites/sprFire2/sprFire2.yy",},},
