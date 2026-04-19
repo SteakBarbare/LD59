@@ -14,3 +14,7 @@ camY = objPlayer.y - cameraHeight / 2;
 lightSurface = surface_create(cameraWidth, cameraHeight);
 
 shadowAlpha = 0.3;
+
+if (!instance_exists(objGrid)) {
+	instance_create_depth(x, y, depth, objGrid);	
+}
