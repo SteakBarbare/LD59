@@ -1,4 +1,4 @@
-if (distance_to_object(objPlayer) < interactRange && keyboard_check_pressed(ord("E"))) {
+if (distance_to_object(objPlayer) < interactRange && keyboard_check_pressed(ord("A"))) {
     showTuto = !showTuto;
     tutoOpening = showTuto;
     if (showTuto) tutoScale = 0;
