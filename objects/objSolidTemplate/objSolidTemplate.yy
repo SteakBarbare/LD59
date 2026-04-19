@@ -31,6 +31,9 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"haveColision","filters":[],"listItems":[],"multiselect":false,"name":"haveColision","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"outlineColorR","filters":[],"listItems":[],"multiselect":false,"name":"outlineColorR","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"outlineColorG","filters":[],"listItems":[],"multiselect":false,"name":"outlineColorG","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"outlineColorB","filters":[],"listItems":[],"multiselect":false,"name":"outlineColorB","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

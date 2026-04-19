@@ -10,6 +10,8 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objTrapTemplate","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"propertyId":{"name":"effectDuration","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objTrapTemplate","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"propertyId":{"name":"effect","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Stagger",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objSolidTemplate","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"propertyId":{"name":"outlineColorR","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objSolidTemplate","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"propertyId":{"name":"outlineColorG","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"Traps",
