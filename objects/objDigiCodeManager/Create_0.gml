@@ -11,7 +11,6 @@ with (objPaperSpawn) {
     array_push(allSpawns, id);
 }
 
-
 for (var i = array_length(allSpawns) - 1; i > 0; i--) {
     var randomIndex = irandom(i);
     var temp = allSpawns[i];
@@ -19,11 +18,9 @@ for (var i = array_length(allSpawns) - 1; i > 0; i--) {
     allSpawns[randomIndex] = temp;
 }
 
-
 allSpawns[0].digitIndex = 1;
 allSpawns[1].digitIndex = 2;
 allSpawns[2].digitIndex = 3;
-
 
 for (var i = 3; i < array_length(allSpawns); i++) {
     allSpawns[i].isActive = false;

@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprTutoPlaceholder",
-    "path":"sprites/sprTutoPlaceholder/sprTutoPlaceholder.yy",
+    "name":"sprPapersCode",
+    "path":"sprites/sprPapersCode/sprPapersCode.yy",
   },
   "spriteMaskId":null,
   "visible":true,

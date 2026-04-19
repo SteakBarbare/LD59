@@ -6,8 +6,8 @@
   "name":"objWallSide",
   "overriddenProperties":[],
   "parent":{
-    "name":"Props",
-    "path":"folders/Objects/Props.yy",
+    "name":"Walls",
+    "path":"folders/Objects/Props/Walls.yy",
   },
   "parentObjectId":{
     "name":"objBasicSolids",

@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprGreenRec",
-    "path":"sprites/sprGreenRec/sprGreenRec.yy",
+    "name":"sprConfusion",
+    "path":"sprites/sprConfusion/sprConfusion.yy",
   },
   "spriteMaskId":null,
   "visible":true,

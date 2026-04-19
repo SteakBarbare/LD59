@@ -6,8 +6,8 @@
   "name":"objTableEmpty",
   "overriddenProperties":[],
   "parent":{
-    "name":"Props",
-    "path":"folders/Objects/Props.yy",
+    "name":"Tables",
+    "path":"folders/Objects/Props/Tables.yy",
   },
   "parentObjectId":{
     "name":"objBasicSolids",
