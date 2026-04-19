@@ -1,3 +1,5 @@
+randomise();
+
 firstWords = ["Behold", "Witness", "Fear", "Embrace", "Worship", "Smell", "Lick", "Touch", "Summon", "Taste"];
 middleWords = ["Cheesy", "Homeless", "Crusty", "Soggy", "Spooky", "Funky", "Sketchy", "Slimy", "Buzzcut", "Bald"];
 lastWords = ["Toe", "Squid", "Bat", "Goblin", "Nugget", "Pickle", "Potato", "Gremlin", "Zob", "Random"];

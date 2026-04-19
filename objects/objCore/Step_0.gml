@@ -22,8 +22,7 @@ camera_set_view_pos(camera, camX, camY);
 
 
 if(shadowAlpha != targetShadowAlpha){
-	//shadowAlpha += (sign(targetShadowAlpha - shadowAlpha) * 0.01);
-	shadowAlpha = 0
+	shadowAlpha += (sign(targetShadowAlpha - shadowAlpha) * 0.01);
 }
 
 if(room == rmIntro && !allDocRetrieved){

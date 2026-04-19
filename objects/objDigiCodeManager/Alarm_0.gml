@@ -25,4 +25,5 @@ selectedSpawns[2].digitIndex = 3;
 
 for (currentSpawn = 0; currentSpawn < array_length(allSpawns); currentSpawn++) {
     allSpawns[currentSpawn].isActive = false;
+    instance_destroy(allSpawns[currentSpawn]);
 }
