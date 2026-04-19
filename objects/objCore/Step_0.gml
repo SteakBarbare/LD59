@@ -35,5 +35,8 @@ if(room == rmIntro && !allDocRetrieved){
 	
 	if(allDocRetrieved){
 		targetShadowAlpha = 1;
+		with(objBlock){
+			instance_destroy();
+		}
 	}
 }
