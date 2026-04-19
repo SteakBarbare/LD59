@@ -39,4 +39,18 @@ with(objLightTemplate){
 
 gpu_set_blendmode(bm_normal);
 
+// Handling Sonar Effect on Solid Template
+with(objSolidTemplate){
+	if(setOutline) {
+		shader_set(shdOutline);
+		shader_set_uniform_f(uPixelW, texelW);
+		shader_set_uniform_f(uPixelH, texelH);
+		shader_set_uniform_f(echoAlpha, outlineAlpha);
+		shader_set_uniform_f(outlineColor, 1, 1, 1, 1);
+	
+		draw_self();
+		shader_reset();
+	}
+}
+
 surface_reset_target();
