@@ -19,3 +19,8 @@ if (secondCameraOn && !instance_exists(objLightSonar)) {
 // Apply
 camera_set_view_pos(cameraSonar, camSonarX, camSonarY);
 camera_set_view_pos(camera, camX, camY);
+
+
+if(shadowAlpha != targetShadowAlpha){
+	shadowAlpha += (sign(targetShadowAlpha - shadowAlpha) * 0.01);
+}

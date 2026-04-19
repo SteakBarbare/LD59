@@ -96,6 +96,7 @@
     {"id":{"name":"objWallSide","path":"objects/objWallSide/objWallSide.yy",},},
     {"id":{"name":"partSonarBurst","path":"particles/partSonarBurst/partSonarBurst.yy",},},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
+    {"id":{"name":"rmIntro","path":"rooms/rmIntro/rmIntro.yy",},},
     {"id":{"name":"rmLightTest","path":"rooms/rmLightTest/rmLightTest.yy",},},
     {"id":{"name":"rmPathTest","path":"rooms/rmPathTest/rmPathTest.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -261,6 +262,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rmIntro","path":"rooms/rmIntro/rmIntro.yy",},},
     {"roomId":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
     {"roomId":{"name":"rmPathTest","path":"rooms/rmPathTest/rmPathTest.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
