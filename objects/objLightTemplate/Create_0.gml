@@ -2,5 +2,6 @@
 
 followedEntity = noone;
 lightSprite = sprLightHaloSmoufBig;
+colorToAdd = "";
 
 isDisappearing = false;
