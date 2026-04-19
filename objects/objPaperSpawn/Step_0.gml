@@ -1,3 +1,5 @@
+event_inherited();
+
 if (!isActive) exit;
 
 if (!isInitialized && digitIndex > 0) {

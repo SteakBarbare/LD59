@@ -226,6 +226,7 @@
     {"id":{"name":"sprSlow","path":"sprites/sprSlow/sprSlow.yy",},},
     {"id":{"name":"sprSonar","path":"sprites/sprSonar/sprSonar.yy",},},
     {"id":{"name":"sprSonarCamera","path":"sprites/sprSonarCamera/sprSonarCamera.yy",},},
+    {"id":{"name":"sprSonarCameraSooS","path":"sprites/sprSonarCameraSooS/sprSonarCameraSooS.yy",},},
     {"id":{"name":"sprSound","path":"sprites/sprSound/sprSound.yy",},},
     {"id":{"name":"sprSpawnerFxPlaceholder","path":"sprites/sprSpawnerFxPlaceholder/sprSpawnerFxPlaceholder.yy",},},
     {"id":{"name":"sprSpawnFx","path":"sprites/sprSpawnFx/sprSpawnFx.yy",},},
