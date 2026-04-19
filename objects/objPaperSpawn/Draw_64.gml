@@ -9,6 +9,8 @@ if (distance_to_object(objPlayer) < interactRange && !showPaper) {
     draw_set_valign(fa_middle);
     draw_set_color(c_white);
     draw_text(centerX, display_get_gui_height() - 80, "R - Lire");
+	draw_set_halign(fa_left);
+    draw_set_valign(fa_top);
 }
 
 
@@ -26,5 +28,7 @@ if (showPaper || paperOpening) {
         draw_set_color(c_black);
 		draw_text_transformed(centerX, centerY, string(digitValue), 1.5, 1.5, 0);
         draw_set_alpha(1);
+		draw_set_halign(fa_left);
+		draw_set_valign(fa_top);
     }
 }

@@ -61,6 +61,7 @@
   "name":"LD59",
   "resources":[
     {"id":{"name":"fntMainFont","path":"fonts/fntMainFont/fntMainFont.yy",},},
+    {"id":{"name":"fntMainFontBold","path":"fonts/fntMainFontBold/fntMainFontBold.yy",},},
     {"id":{"name":"fntMenu","path":"fonts/fntMenu/fntMenu.yy",},},
     {"id":{"name":"fntTerminal","path":"fonts/fntTerminal/fntTerminal.yy",},},
     {"id":{"name":"objBasicSolids","path":"objects/objBasicSolids/objBasicSolids.yy",},},

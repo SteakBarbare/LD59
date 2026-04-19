@@ -5,6 +5,8 @@ if (!isActive) exit;
 if (!isInitialized && digitIndex > 0) {
     var manager = instance_find(objDigiCodeManager, 0);
     digitValue = variable_instance_get(manager, "digit" + string(digitIndex));
+	show_debug_message(digitValue);
+	manager.foundWord[digitIndex - 1] = digitValue;
     isInitialized = true;
 }
 

@@ -6,4 +6,6 @@ digit1 = firstWords[irandom(9)];
 digit2 = middleWords[irandom(9)];
 digit3 = lastWords[irandom(9)];
 
+foundWords = ["?", "?", "?"];
+
 alarm[0] = 10;
