@@ -16,7 +16,6 @@ if (isControlsInverted) {
 }
 
 if (playerState != "Stagger") {
-	//var currentSolid = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, objBasicSolids, true, true);
     if (moveUp) {
         var currentSolid = collision_rectangle(bbox_left, bbox_top - moveSpeed, bbox_right, bbox_bottom, objBasicSolids, true, true);
         if (!currentSolid || (currentSolid && !currentSolid.haveColision)) {
@@ -24,19 +23,22 @@ if (playerState != "Stagger") {
 		}
     }
 	if (moveDown) {
-	   var currentSolid = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom + moveSpeed, objBasicSolids, true, true);
+	   //var currentSolid = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom + moveSpeed, objBasicSolids, true, true);
+	   var currentSolid = instance_position(x, y + moveSpeed, objBasicSolids);
 	    if (!currentSolid || (currentSolid && !currentSolid.haveColision)) {
 			y += moveSpeed;
 		}
 	}
     if (moveRight) {
-        var currentSolid = collision_rectangle(bbox_left, bbox_top, bbox_right + moveSpeed, bbox_bottom, objBasicSolids, true, true);
+        //var currentSolid = collision_rectangle(bbox_left, bbox_top, bbox_right + moveSpeed, bbox_bottom, objBasicSolids, true, true);
+		var currentSolid = instance_position(x + moveSpeed, y, objBasicSolids);
         if (!currentSolid || (currentSolid && !currentSolid.haveColision)) {
 			x += moveSpeed;
 		}
     }
     if (moveLeft) {
-        var currentSolid = collision_rectangle(bbox_left - moveSpeed, bbox_top, bbox_right, bbox_bottom, objBasicSolids, true, true);
+        //var currentSolid = collision_rectangle(bbox_left - moveSpeed, bbox_top, bbox_right, bbox_bottom, objBasicSolids, true, true);
+		var currentSolid = instance_position(x - moveSpeed, y, objBasicSolids);
 		if (!currentSolid || (currentSolid && !currentSolid.haveColision)) {
 			x -= moveSpeed;
 		}
