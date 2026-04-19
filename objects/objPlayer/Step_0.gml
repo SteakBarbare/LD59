@@ -108,6 +108,11 @@ switch (playerState) {
         break;
     
     case "Stagger":
+	
+		if(skeleton_animation_get() != "Stagger"){
+			skeleton_animation_set("Stagger");
+		}
+		
         if (!isStagger) {
             alarm[0] = game_get_speed(gamespeed_fps) * stagTime;
             isStagger = true;
