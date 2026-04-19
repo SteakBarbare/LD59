@@ -8,3 +8,5 @@ if (trapCooldown > 0) {
         }
     }
 }
+
+srcPlaySound(sndNoiseTrap, false, false, -1, -1, -1, 1)

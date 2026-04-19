@@ -121,3 +121,8 @@ if (!isTriggered && (state == "Idle" || isRoaming || detectSignal || soundTrapTr
 //	objPlayer.moveSpeed = objPlayer.moveSpeed * 2;
 //	moveSpeed = objPlayer.moveSpeed * 1.5;
 //}
+
+if (gonnaMeow) {
+	alarm[3] = game_get_speed(gamespeed_fps) * irandom_range(5, 20);
+	gonnaMeow = false;
+}
