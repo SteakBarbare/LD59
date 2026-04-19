@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprSonar",
-    "path":"sprites/sprSonar/sprSonar.yy",
+    "name":"sprOnduloscopeProp",
+    "path":"sprites/sprOnduloscopeProp/sprOnduloscopeProp.yy",
   },
   "spriteMaskId":null,
   "visible":true,

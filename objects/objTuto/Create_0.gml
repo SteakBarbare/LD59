@@ -5,3 +5,5 @@ tutoOpening = false
 isActivated = false;
 
 inputPrevent = 0;
+
+sprite_index = propSprite;

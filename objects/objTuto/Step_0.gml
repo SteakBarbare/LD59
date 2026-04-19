@@ -3,7 +3,12 @@ if (distance_to_object(objPlayer) < interactRange && keyboard_check_pressed(ord(
     tutoOpening = showTuto;
 	
     if (showTuto) tutoScale = 0;
-	else isActivated = true;
+	else if(!isActivated){ isActivated = true;
+		if(createSonar) {
+			objSonar.isCarried = true;
+		}
+	}
+
 }
 
 if (tutoOpening) {

@@ -29,6 +29,8 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"docToShow","filters":[],"listItems":[],"multiselect":false,"name":"docToShow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sprTuto","path":"sprites/sprTuto/sprTuto.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprTuto","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"propSprite","filters":[],"listItems":[],"multiselect":false,"name":"propSprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sprOnduloscopeProp","path":"sprites/sprOnduloscopeProp/sprOnduloscopeProp.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprOnduloscopeProp","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"createSonar","filters":[],"listItems":[],"multiselect":false,"name":"createSonar","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
