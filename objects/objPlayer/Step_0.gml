@@ -4,6 +4,7 @@ var moveRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
 var moveLeft = keyboard_check(vk_left) or keyboard_check(ord("A")) or keyboard_check(ord("Q"));
 var moveDown = keyboard_check(vk_down) or keyboard_check(ord("S"));
 var moveUp = keyboard_check(vk_up) or keyboard_check(ord("Z")) or keyboard_check(ord("W"));
+var movement = moveRight || moveLeft || moveDown || moveUp;
 var carrySonar = keyboard_check(ord("F"));
 
 if (isControlsInverted) {
@@ -26,7 +27,7 @@ if (isPaused) exit;
 
 //
 
-if (playerState != "Stagger") {
+if (playerState != "Stagger" && playerState != "Death") {
     if (moveUp) {
         //var currentSolid = collision_rectangle(bbox_left, bbox_top - moveSpeed, bbox_right, bbox_bottom, objBasicSolids, true, true);
 		var currentSolid = instance_position(x, y - moveSpeed, objBasicSolids);
@@ -55,6 +56,32 @@ if (playerState != "Stagger") {
 			x -= moveSpeed;
 		}
     }
+	
+	if(moveLeft || moveRight && !moveDown && !moveUp){
+		if(sprite_index != sprPlayerSide){
+			sprite_index = sprPlayerSide;
+		}
+	}else if(moveDown && !moveLeft && !moveRight){
+		if(sprite_index != sprPlayerFront){
+			sprite_index = sprPlayerFront;
+		}
+	}else if(moveUp && !moveLeft && !moveRight){
+		if(sprite_index != sprPlayerBack){
+			sprite_index = sprPlayerBack;
+		}
+	}
+	
+	if(moveLeft && !moveRight){
+		image_xscale = -0.3;
+	}else if(moveRight && !moveLeft){
+		image_xscale = 0.3;
+	}
+	
+	if(movement && skeleton_animation_get() != "Walk"){
+		skeleton_animation_set("Walk");
+	}else if(!movement && skeleton_animation_get() != "Idle"){
+		skeleton_animation_set("Idle");
+	}
 }
 
 if (keyboard_check(vk_space) && instance_exists(objSonar) && !objSonar.isCarried) {
@@ -88,11 +115,23 @@ switch (playerState) {
         break;
     
 	case "Death":
-	    if (deathScreenAlpha < 1) deathScreenAlpha += 0.05;
+		if(skeleton_animation_get() != "Death"){
+			skeleton_animation_set("Death");
+			image_index = 0;
+		}
+		
+		if(image_index >= 60){
+			deathAnimationOver = true;
+			image_speed = 0;
+		}
+	
+		if(deathAnimationOver){
+		    if (deathScreenAlpha < 1) deathScreenAlpha += 0.05;
     
-	    if (isHoveringButton && mouse_check_button_pressed(mb_left)) {
-	        room_restart();
-	    }
+		    if (isHoveringButton && mouse_check_button_pressed(mb_left)) {
+		        room_restart();
+		    }
+		}
 	    break;
     
     default:

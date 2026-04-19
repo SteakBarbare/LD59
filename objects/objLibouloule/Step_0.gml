@@ -1,5 +1,13 @@
 event_inherited();
 
+if(isKilling){
+	if(image_index >= 54){
+		skeleton_animation_set("Walk");
+	}else{
+		exit;
+	}
+}
+
 if (!instance_exists(objPlayer)) return;
 
 var click = mouse_check_button_pressed(mb_left);

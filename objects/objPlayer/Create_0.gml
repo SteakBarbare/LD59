@@ -23,3 +23,9 @@ isPaused = false;
 
 cameraX = 0;
 cameraY = 0;
+
+deathAnimationOver = false;
+
+image_xscale = 0.3;
+image_yscale = 0.3;
+skeleton_animation_set("Idle");
