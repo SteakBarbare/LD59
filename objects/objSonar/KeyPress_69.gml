@@ -1,4 +1,6 @@
-if (timeUsed < maximumUseWithoutCarrying) {
-	emitSignal = true;
-	timeUsed++
+if (objPlayer.canUseSonar) {
+	if (timeUsed < maximumUseWithoutCarrying) {
+		emitSignal = true;
+		timeUsed++
+	}
 }
