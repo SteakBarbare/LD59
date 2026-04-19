@@ -9,6 +9,7 @@ setOutline = false;
 outlineAlpha = 0;
 outlineIncreasing = true;
 
+isKilling = false;
 
 daWae = path_add();
 moveSpeed = 4;
