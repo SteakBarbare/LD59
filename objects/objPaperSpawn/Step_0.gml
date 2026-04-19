@@ -8,7 +8,7 @@ if (!isInitialized && digitIndex > 0) {
     isInitialized = true;
 }
 
-if (distance_to_object(objPlayer) < interactRange && keyboard_check_pressed(ord("E"))) {
+if (distance_to_object(objPlayer) < interactRange && keyboard_check_pressed(ord("R"))) {
     showPaper = !showPaper;
     paperOpening = showPaper;
     if (showPaper) paperScale = 0;

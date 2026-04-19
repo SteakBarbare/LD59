@@ -26,7 +26,7 @@ if (!instance_exists(objGrid)) {
 	instance_create_depth(x, y, depth, objGrid);
 }
 
-if (!instance_exists(objDigiCodeManager)) {
+if (!instance_exists(objDigiCodeManager) && room == rmGame) {
 	instance_create_depth(x, y, depth, objDigiCodeManager);
 }
 
