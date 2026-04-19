@@ -9,8 +9,11 @@ if (isCarried) {
 }
 
 if (emitSignal) {
-	if (!instance_exists(objLibouloule) || !instance_exists(objCore)) return;
-	objLibouloule.detectSignal = true;
+	if (!instance_exists(objCore)) return;
+	
+	if(instance_exists(objLibouloule)){
+		objLibouloule.detectSignal = true;
+	}
 	emittedX = x;
 	emittedY = y;
 	emitSignal = false;

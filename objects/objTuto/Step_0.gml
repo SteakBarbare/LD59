@@ -1,7 +1,15 @@
-if (distance_to_object(objPlayer) < interactRange && keyboard_check_pressed(ord("E"))) {
+if (distance_to_object(objPlayer) < interactRange && keyboard_check_pressed(ord("R"))) {
     showTuto = !showTuto;
     tutoOpening = showTuto;
+	
     if (showTuto) tutoScale = 0;
+	else if(!isActivated){ isActivated = true;
+		if(createSonar) {
+			objSonar.isCarried = true;
+			instance_destroy();
+		}
+	}
+
 }
 
 if (tutoOpening) {

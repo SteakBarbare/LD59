@@ -1,25 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"objSonar",
+  "%Name":"objTransition",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objSonar",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objSolidTemplate","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"propertyId":{"name":"haveColision","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-  ],
+  "name":"objTransition",
+  "overriddenProperties":[],
   "parent":{
-    "name":"MainEntities",
-    "path":"folders/Objects/MainEntities.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
-  "parentObjectId":{
-    "name":"objSolidTemplate",
-    "path":"objects/objSolidTemplate/objSolidTemplate.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -37,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprOnduloscopeProp",
-    "path":"sprites/sprOnduloscopeProp/sprOnduloscopeProp.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

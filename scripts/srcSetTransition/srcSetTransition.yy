@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srcSetTransition",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srcSetTransition",
+  "parent":{
+    "name":"UI",
+    "path":"folders/Srcipts/UI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

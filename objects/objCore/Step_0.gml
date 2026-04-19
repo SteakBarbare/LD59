@@ -19,3 +19,24 @@ if (secondCameraOn && !instance_exists(objLightSonar)) {
 // Apply
 camera_set_view_pos(cameraSonar, camSonarX, camSonarY);
 camera_set_view_pos(camera, camX, camY);
+
+
+if(shadowAlpha != targetShadowAlpha){
+	shadowAlpha += (sign(targetShadowAlpha - shadowAlpha) * 0.01);
+}
+
+if(room == rmIntro && !allDocRetrieved){
+	allDocRetrieved = true;
+	with(objTuto){
+		if(!isActivated){
+			objCore.allDocRetrieved = false
+		}
+	}
+	
+	if(allDocRetrieved){
+		targetShadowAlpha = 1;
+		with(objBlock){
+			instance_destroy();
+		}
+	}
+}
