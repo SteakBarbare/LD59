@@ -7,6 +7,8 @@ if(!surface_exists(lightSurface)){
 }
 
 surface_set_target(lightSurface);
+draw_clear(c_white);
+camera_apply(cameraSonar);
 draw_clear(c_black);
 camera_apply(camera);
 
@@ -27,8 +29,13 @@ with(objLightTemplate){
 		}
 	}
 	
-	gpu_set_blendmode(bm_subtract);
-	draw_sprite_ext(lightSprite, 0, x, y, currentScale, currentScale, 0, c_white, alphaLight - intensitySecondLight);
+	if (!sonarLight) {
+		gpu_set_blendmode(bm_subtract);
+		draw_sprite_ext(lightSprite, 0, x, y, currentScale, currentScale, 0, c_white, alphaLight - intensitySecondLight);
+	} else {
+		gpu_set_blendmode(bm_subtract);
+		draw_sprite_ext(lightSprite, 0, objCore.camX, objCore.camY, 1, 1, 0, c_white, 1);
+	}
 
 	if (colorToAdd != "") {
 		gpu_set_blendmode(bm_add);
