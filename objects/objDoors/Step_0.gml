@@ -1,3 +1,5 @@
+event_inherited();
+
 if (distance_to_object(objPlayer) < 200) {
 	image_speed = 1;
 	if (playSound) {

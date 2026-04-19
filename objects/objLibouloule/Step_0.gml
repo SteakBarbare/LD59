@@ -123,6 +123,6 @@ if (!isTriggered && (state == "Idle" || isRoaming || detectSignal || soundTrapTr
 //}
 
 if (gonnaMeow) {
-	alarm[3] = game_get_speed(gamespeed_fps) * irandom_range(5, 20);
+	alarm[3] = game_get_speed(gamespeed_fps) * irandom_range(2, 12);
 	gonnaMeow = false;
 }
