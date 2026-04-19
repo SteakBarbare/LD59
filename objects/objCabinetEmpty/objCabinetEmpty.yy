@@ -6,8 +6,8 @@
   "name":"objCabinetEmpty",
   "overriddenProperties":[],
   "parent":{
-    "name":"Props",
-    "path":"folders/Objects/Props.yy",
+    "name":"Cabinets",
+    "path":"folders/Objects/Props/Cabinets.yy",
   },
   "parentObjectId":{
     "name":"objBasicSolids",

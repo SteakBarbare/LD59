@@ -13,7 +13,10 @@
     "name":"Templates",
     "path":"folders/Objects/Templates.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objSolidTemplate",
+    "path":"objects/objSolidTemplate/objSolidTemplate.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -40,8 +43,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprTutoPlaceholder",
-    "path":"sprites/sprTutoPlaceholder/sprTutoPlaceholder.yy",
+    "name":"sprPapersCode",
+    "path":"sprites/sprPapersCode/sprPapersCode.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBlueRec",
-    "path":"sprites/sprBlueRec/sprBlueRec.yy",
+    "name":"sprSound",
+    "path":"sprites/sprSound/sprSound.yy",
   },
   "spriteMaskId":null,
   "visible":true,

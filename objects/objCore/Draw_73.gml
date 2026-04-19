@@ -29,11 +29,13 @@ with(objLightTemplate){
 		}
 	}
 	
+	//gpu_set_blendmode(bm_subtract);
 	if (!sonarLight) {
 		gpu_set_blendmode(bm_subtract);
 		draw_sprite_ext(lightSprite, 0, x, y, currentScale, currentScale, 0, c_white, alphaLight - intensitySecondLight);
 	} else {
-		gpu_set_blendmode(bm_subtract);
+		gpu_set_blendmode(bm_subtract); 
+		//draw_sprite_ext(lightSprite, 0, objCore.camX + 350, objCore.camY + 250, 3, 3, 0, c_white, alphaLight);
 		draw_sprite_ext(lightSprite, 0, objCore.camX, objCore.camY, 1, 1, 0, c_white, 1);
 	}
 

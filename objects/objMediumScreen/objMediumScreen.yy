@@ -8,8 +8,8 @@
   "name":"objMediumScreen",
   "overriddenProperties":[],
   "parent":{
-    "name":"Props",
-    "path":"folders/Objects/Props.yy",
+    "name":"Screens",
+    "path":"folders/Objects/Props/Screens.yy",
   },
   "parentObjectId":{
     "name":"objBasicSolids",

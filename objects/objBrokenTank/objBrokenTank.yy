@@ -8,8 +8,8 @@
   "name":"objBrokenTank",
   "overriddenProperties":[],
   "parent":{
-    "name":"Props",
-    "path":"folders/Objects/Props.yy",
+    "name":"Tanks",
+    "path":"folders/Objects/Props/Tanks.yy",
   },
   "parentObjectId":{
     "name":"objBasicSolids",

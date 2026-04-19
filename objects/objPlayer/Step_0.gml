@@ -1,4 +1,4 @@
-depth = -bbox_bottom;
+depth = -bbox_bottom -10000;
 
 var moveRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
 var moveLeft = keyboard_check(vk_left) or keyboard_check(ord("A")) or keyboard_check(ord("Q"));
