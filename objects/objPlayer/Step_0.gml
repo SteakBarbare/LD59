@@ -116,6 +116,9 @@ switch (playerState) {
     
 	case "Death":
 		if(skeleton_animation_get() != "Death"){
+			if(sprite_index != sprPlayerSide){
+				sprite_index = sprPlayerSide;
+			}
 			skeleton_animation_set("Death");
 			image_index = 0;
 		}
