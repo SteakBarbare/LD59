@@ -7,6 +7,8 @@ isStagger = false;
 isSlow = false;
 stagTime = 1
 
+canUseSonar = true;
+
 deathScreenAlpha = 0
 isHoveringButton = false;
 
