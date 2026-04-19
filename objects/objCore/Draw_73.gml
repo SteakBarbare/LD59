@@ -46,7 +46,7 @@ with(objSolidTemplate){
 		shader_set_uniform_f(uPixelW, texelW);
 		shader_set_uniform_f(uPixelH, texelH);
 		shader_set_uniform_f(echoAlpha, outlineAlpha);
-		shader_set_uniform_f(outlineColor, 1, 1, 1, 1);
+		shader_set_uniform_f(outlineColor, outlineColorR, outlineColorG, outlineColorB, 1);
 	
 		draw_self();
 		shader_reset();
