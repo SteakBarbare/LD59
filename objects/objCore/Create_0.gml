@@ -26,4 +26,8 @@ if (!instance_exists(objGrid)) {
 	instance_create_depth(x, y, depth, objGrid);
 }
 
+if (!instance_exists(objDigiCodeManager)) {
+	instance_create_depth(x, y, depth, objDigiCodeManager);
+}
+
 window_set_fullscreen(true);
