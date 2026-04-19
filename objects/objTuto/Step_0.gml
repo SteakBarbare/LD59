@@ -6,6 +6,7 @@ if (distance_to_object(objPlayer) < interactRange && keyboard_check_pressed(ord(
 	else if(!isActivated){ isActivated = true;
 		if(createSonar) {
 			objSonar.isCarried = true;
+			instance_destroy();
 		}
 	}
 
