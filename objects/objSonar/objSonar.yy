@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprSonar",
-    "path":"sprites/sprSonar/sprSonar.yy",
+    "name":"sprOndulouscoupe",
+    "path":"sprites/sprOndulouscoupe/sprOndulouscoupe.yy",
   },
   "spriteMaskId":null,
   "visible":true,

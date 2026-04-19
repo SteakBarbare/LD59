@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprYellowRec",
-    "path":"sprites/sprYellowRec/sprYellowRec.yy",
+    "name":"sprSlow",
+    "path":"sprites/sprSlow/sprSlow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

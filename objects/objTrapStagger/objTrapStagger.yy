@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPurpleRec",
-    "path":"sprites/sprPurpleRec/sprPurpleRec.yy",
+    "name":"sprStagger",
+    "path":"sprites/sprStagger/sprStagger.yy",
   },
   "spriteMaskId":null,
   "visible":true,
