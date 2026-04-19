@@ -13,4 +13,4 @@ camY = objPlayer.y - cameraHeight / 2;
 
 lightSurface = surface_create(cameraWidth, cameraHeight);
 
-shadowAlpha = 1;
+shadowAlpha = 0.3;

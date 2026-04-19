@@ -7,6 +7,7 @@ state = "Idle";
 isTriggered = false;
 isRoaming = false;
 detectSignal = false;
+soundTrapTriggered = noone;
 
 detectionZone = 300;
 

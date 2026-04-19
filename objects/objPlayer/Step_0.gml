@@ -17,7 +17,8 @@ if (isControlsInverted) {
 
 if (playerState != "Stagger") {
     if (moveUp) {
-        var currentSolid = collision_rectangle(bbox_left, bbox_top - moveSpeed, bbox_right, bbox_bottom, objBasicSolids, true, true);
+        //var currentSolid = collision_rectangle(bbox_left, bbox_top - moveSpeed, bbox_right, bbox_bottom, objBasicSolids, true, true);
+		var currentSolid = instance_position(x, y - moveSpeed, objBasicSolids);
         if (!currentSolid || (currentSolid && !currentSolid.haveColision)) {
 			y -= moveSpeed;
 		}

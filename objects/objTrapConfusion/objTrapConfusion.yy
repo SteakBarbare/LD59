@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"objTrapInvertControl",
+  "%Name":"objTrapConfusion",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objTrapInvertControl",
+  "name":"objTrapConfusion",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objTrapTemplate","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"propertyId":{"name":"effectDuration","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objTrapTemplate","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"propertyId":{"name":"effect","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Invert",},
   ],
   "parent":{
-    "name":"Templates",
-    "path":"folders/Objects/Templates.yy",
+    "name":"Traps",
+    "path":"folders/Objects/Traps.yy",
   },
   "parentObjectId":{
     "name":"objTrapTemplate",
@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPurpleRec",
-    "path":"sprites/sprPurpleRec/sprPurpleRec.yy",
+    "name":"sprGreenRec",
+    "path":"sprites/sprGreenRec/sprGreenRec.yy",
   },
   "spriteMaskId":null,
   "visible":true,

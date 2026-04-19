@@ -1,9 +1,10 @@
 defaultMoveSpeed = 8; 
-moveSpeed = defaultMoveSpeed
+moveSpeed = defaultMoveSpeed;
 
 playerState = "idle";
 
 isStagger = false;
+isSlow = false;
 stagTime = 1
 
 deathScreenAlpha = 0

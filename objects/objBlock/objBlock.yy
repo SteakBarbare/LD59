@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBipBoop",
-    "path":"sprites/sprBipBoop/sprBipBoop.yy",
+    "name":"sprBox",
+    "path":"sprites/sprBox/sprBox.yy",
   },
   "spriteMaskId":null,
   "visible":true,

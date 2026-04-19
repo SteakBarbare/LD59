@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"objTrapSlow",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"objTrapSlow",
@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objTrapTemplate","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"propertyId":{"name":"effect","path":"objects/objTrapTemplate/objTrapTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Slow",},
   ],
   "parent":{
-    "name":"Templates",
-    "path":"folders/Objects/Templates.yy",
+    "name":"Traps",
+    "path":"folders/Objects/Traps.yy",
   },
   "parentObjectId":{
     "name":"objTrapTemplate",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPurpleRec",
-    "path":"sprites/sprPurpleRec/sprPurpleRec.yy",
+    "name":"sprYellowRec",
+    "path":"sprites/sprYellowRec/sprYellowRec.yy",
   },
   "spriteMaskId":null,
   "visible":true,
