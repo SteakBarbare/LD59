@@ -1,6 +1,6 @@
 /// @description Assets Related Variables
 
 followedEntity = noone;
-lightSprite = sprLightHaloSmouf;
+lightSprite = sprLightHaloSmoufBig;
 
 isDisappearing = false;

@@ -1,3 +1,5 @@
+depth = -bbox_bottom;
+
 var moveRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
 var moveLeft = keyboard_check(vk_left) or keyboard_check(ord("A")) or keyboard_check(ord("Q"));
 var moveDown = keyboard_check(vk_down) or keyboard_check(ord("S"));
@@ -14,24 +16,32 @@ if (isControlsInverted) {
 }
 
 if (playerState != "Stagger") {
+	//var currentSolid = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, objBasicSolids, true, true);
     if (moveUp) {
-        var currentSolid = instance_position(x, y - moveSpeed, objBasicSolids);
-        if (!currentSolid || (currentSolid && !currentSolid.haveColision)) y -= moveSpeed;
+        var currentSolid = collision_rectangle(bbox_left, bbox_top - moveSpeed, bbox_right, bbox_bottom, objBasicSolids, true, true);
+        if (!currentSolid || (currentSolid && !currentSolid.haveColision)) {
+			y -= moveSpeed;
+		}
     }
 	if (moveDown) {
-	    var currentSolid = instance_position(x, y + moveSpeed, objBasicSolids);
-	    if (!currentSolid || (currentSolid && !currentSolid.haveColision)) y += moveSpeed;
+	   var currentSolid = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom + moveSpeed, objBasicSolids, true, true);
+	    if (!currentSolid || (currentSolid && !currentSolid.haveColision)) {
+			y += moveSpeed;
+		}
 	}
     if (moveRight) {
-        var currentSolid = instance_position(x + moveSpeed, y, objBasicSolids);
-        if (!currentSolid || (currentSolid && !currentSolid.haveColision)) x += moveSpeed;
+        var currentSolid = collision_rectangle(bbox_left, bbox_top, bbox_right + moveSpeed, bbox_bottom, objBasicSolids, true, true);
+        if (!currentSolid || (currentSolid && !currentSolid.haveColision)) {
+			x += moveSpeed;
+		}
     }
     if (moveLeft) {
-        var currentSolid = instance_position(x - moveSpeed, y, objBasicSolids);
-        if (!currentSolid || (currentSolid && !currentSolid.haveColision)) x -= moveSpeed;
+        var currentSolid = collision_rectangle(bbox_left - moveSpeed, bbox_top, bbox_right, bbox_bottom, objBasicSolids, true, true);
+		if (!currentSolid || (currentSolid && !currentSolid.haveColision)) {
+			x -= moveSpeed;
+		}
     }
 }
-
 
 switch (playerState) {
     case "Idle":

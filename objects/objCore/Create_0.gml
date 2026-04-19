@@ -11,6 +11,6 @@ cameraHeight = camera_get_view_height(camera);
 camX = objPlayer.x - cameraWidth / 2;
 camY = objPlayer.y - cameraHeight / 2;
 
-lightSurface = surface_create(window_get_width(), window_get_height());
+lightSurface = surface_create(cameraWidth, cameraHeight);
 
-shadowAlpha = 0.2;
+shadowAlpha = 1;
