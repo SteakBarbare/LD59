@@ -13,6 +13,15 @@ switch (state) {
 		break;
 		
 	case "Move":
+		
+		if(x > prevX){
+			image_xscale = 0.3;
+		}else{
+			image_xscale = -0.3;
+		}
+		
+		prevX = x;
+		
 		//show_debug_message($"path_position : {path_position}");
 		if (path_position >= 1) {
 			state = "Idle";
