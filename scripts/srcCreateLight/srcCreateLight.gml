@@ -9,7 +9,7 @@
 /// @param  {bool}				isDisappearing		Used to istantly make the light fade away
 /// @param  {string}			colorToAdd			End name of the sprite halo to get in order to display a color
 /// @description									Create a new light
-function srcCreateLight(xPos, yPos, scale, flicker, followedEntity = noone, lightSprite = sprLightHaloSmoufBig, alphaLight = 1, isDisappearing = false, colorToAdd = ""){
+function srcCreateLight(xPos, yPos, scale, flicker, followedEntity = noone, lightSprite = sprLightHaloSmoufBig, alphaLight = 1, isDisappearing = false, colorToAdd = "", sonarLight=false){
 	var newLight = instance_create_depth(xPos, yPos, -yPos, objLightTemplate, {
 		scale: scale,
 		flicker: flicker,
@@ -20,4 +20,5 @@ function srcCreateLight(xPos, yPos, scale, flicker, followedEntity = noone, ligh
 	newLight.lightSprite = lightSprite;
 	newLight.isDisappearing = isDisappearing;
 	newLight.colorToAdd = colorToAdd;
+	newLight.sonarLight = sonarLight;
 }
