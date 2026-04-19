@@ -220,6 +220,7 @@
     {"id":{"name":"sprTank","path":"sprites/sprTank/sprTank.yy",},},
     {"id":{"name":"sprTankFull","path":"sprites/sprTankFull/sprTankFull.yy",},},
     {"id":{"name":"sprTankFullBlack","path":"sprites/sprTankFullBlack/sprTankFullBlack.yy",},},
+    {"id":{"name":"sprTankShadow","path":"sprites/sprTankShadow/sprTankShadow.yy",},},
     {"id":{"name":"sprTestPlayer","path":"sprites/sprTestPlayer/sprTestPlayer.yy",},},
     {"id":{"name":"sprTorchEffect","path":"sprites/sprTorchEffect/sprTorchEffect.yy",},},
     {"id":{"name":"sprTuto","path":"sprites/sprTuto/sprTuto.yy",},},

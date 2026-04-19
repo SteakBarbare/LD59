@@ -3,7 +3,7 @@
 part_system_drawit(global.partSystem);
 
 if(!surface_exists(lightSurface)){
-	lightSurface = surface_create(cameraWidth, cameraHeight);
+	lightSurface = surface_create(display_get_width(), display_get_height());
 }
 
 surface_set_target(lightSurface);

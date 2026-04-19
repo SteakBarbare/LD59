@@ -11,10 +11,12 @@ cameraHeight = camera_get_view_height(camera);
 camX = objPlayer.x - cameraWidth / 2;
 camY = objPlayer.y - cameraHeight / 2;
 
-lightSurface = surface_create(cameraWidth, cameraHeight);
+lightSurface = surface_create(display_get_width(), display_get_height());
 
 shadowAlpha = 1;
 
 if (!instance_exists(objGrid)) {
 	instance_create_depth(x, y, depth, objGrid);	
 }
+
+window_set_fullscreen(true);
