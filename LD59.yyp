@@ -188,6 +188,7 @@
     {"id":{"name":"sprLightHalo","path":"sprites/sprLightHalo/sprLightHalo.yy",},},
     {"id":{"name":"sprLightHaloSmouf","path":"sprites/sprLightHaloSmouf/sprLightHaloSmouf.yy",},},
     {"id":{"name":"sprLightHaloSmoufBig","path":"sprites/sprLightHaloSmoufBig/sprLightHaloSmoufBig.yy",},},
+    {"id":{"name":"sprLightHaloSmoufBigGreen","path":"sprites/sprLightHaloSmoufBigGreen/sprLightHaloSmoufBigGreen.yy",},},
     {"id":{"name":"sprLightSpot","path":"sprites/sprLightSpot/sprLightSpot.yy",},},
     {"id":{"name":"sprLittleScreen","path":"sprites/sprLittleScreen/sprLittleScreen.yy",},},
     {"id":{"name":"sprMapBg","path":"sprites/sprMapBg/sprMapBg.yy",},},
