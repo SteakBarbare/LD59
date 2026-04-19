@@ -79,4 +79,5 @@ if (isPaused) {
             game_end();
         }
     }
-}
+    }
+

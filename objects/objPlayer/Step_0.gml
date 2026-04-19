@@ -57,6 +57,28 @@ if (playerState != "Stagger") {
     }
 }
 
+if (keyboard_check(vk_space) && instance_exists(objSonar) && !objSonar.isCarried) {
+    var cameraW = 700; 
+    var cameraH = 700; 
+	cameraX = objSonar.x - cameraW / 2;
+	cameraY = objSonar.y - cameraH / 2;
+	
+    camera_set_view_pos(view_camera[1], cameraX, cameraY);
+    view_visible[1] = true;
+} else {
+    view_visible[1] = false;
+}
+
+if (keyboard_check_pressed(vk_space) && instance_exists(objSonar) && !objSonar.isCarried) {
+    show_debug_message("=== SONAR CAM DEBUG ===");
+    show_debug_message("Camera X: " + string(camera_get_view_x(view_camera[1])) + " Y: " + string(camera_get_view_y(view_camera[1])));
+    show_debug_message("Camera W: " + string(camera_get_view_width(view_camera[1])) + " H: " + string(camera_get_view_height(view_camera[1])));
+    show_debug_message("Viewport X: " + string(view_xport[1]) + " Y: " + string(view_yport[1]));
+    show_debug_message("Viewport W: " + string(view_wport[1]) + " H: " + string(view_hport[1]));
+    show_debug_message(display_get_gui_width());
+    show_debug_message("=======================");
+}
+
 switch (playerState) {
     case "Idle":
         break;

@@ -20,3 +20,6 @@ midSpriteWidth = sprite_get_width(sprite_index) * 0.5;
 midSpriteHeight = sprite_get_height(sprite_index) * 0.5;
 
 isPaused = false;
+
+cameraX = 0;
+cameraY = 0;
