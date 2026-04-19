@@ -57,6 +57,19 @@ if (playerState != "Stagger") {
     }
 }
 
+if (keyboard_check(vk_space) && instance_exists(objSonar) && !objSonar.isCarried) {
+    var cameraW = 700; 
+    var cameraH = 700; 
+	cameraX = objSonar.x - cameraW / 2;
+	cameraY = objSonar.y - cameraH / 2;
+	
+    camera_set_view_pos(view_camera[1], cameraX, cameraY);
+    view_visible[1] = true;
+} else {
+    view_visible[1] = false;
+}
+
+
 switch (playerState) {
     case "Idle":
         break;
