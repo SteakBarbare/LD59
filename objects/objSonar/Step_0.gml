@@ -5,6 +5,7 @@ if (!instance_exists(objPlayer)) return;
 if (isCarried) {
 	x = objPlayer.x;
 	y = objPlayer.y;
+	timeUsed = 0;
 }
 
 if (emitSignal) {
