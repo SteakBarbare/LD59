@@ -15,6 +15,17 @@ if (isControlsInverted) {
     moveDown = temp;
 }
 
+//
+
+if (keyboard_check_pressed(vk_escape)) {
+    isPaused = !isPaused;
+    game_set_speed(isPaused ? 0 : 60, gamespeed_fps);
+}
+
+if (isPaused) exit;
+
+//
+
 if (playerState != "Stagger") {
     if (moveUp) {
         //var currentSolid = collision_rectangle(bbox_left, bbox_top - moveSpeed, bbox_right, bbox_bottom, objBasicSolids, true, true);
