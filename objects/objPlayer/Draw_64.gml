@@ -18,12 +18,12 @@ if (playerState == "Death") {
         draw_set_halign(fa_center);
         draw_set_valign(fa_middle);
         draw_set_color(c_red);
-        draw_text_transformed(centerX, centerY - 50, "T NUL", 3, 3, 0);
+        draw_text_transformed(centerX, centerY - 50, "You've been meowed", 3, 3, 0);
         
         draw_set_color(isHoveringButton ? c_white : c_gray);
         draw_rectangle(buttonLeft, buttonTop, buttonLeft + buttonWidth, buttonTop + buttonHeight, false);
         draw_set_color(c_black);
-        draw_text(centerX, buttonTop + buttonHeight / 2, "Restartr");
+        draw_text(centerX, buttonTop + buttonHeight / 2, "Restart");
     }
     
     draw_set_alpha(1);
