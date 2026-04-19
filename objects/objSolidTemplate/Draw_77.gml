@@ -5,7 +5,7 @@ if(setOutline){
 	shader_set_uniform_f(uPixelW, texelW);
 	shader_set_uniform_f(uPixelH, texelH);
 	shader_set_uniform_f(echoAlpha, outlineAlpha);
-	shader_set_uniform_f(outlineColor, 1, 1, 1, 1);
+	shader_set_uniform_f(outlineColor, outlineColorR, outlineColorG, outlineColorB, 1);
 	
 	//draw_self();
 	draw_sprite(sprite_index, image_index, x - objCore.camX, y - objCore.camY);
