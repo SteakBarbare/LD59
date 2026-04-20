@@ -16,6 +16,7 @@ secondCameraOn = false;
 
 // Tutorial Check
 allDocRetrieved = false;
+powerDownSFX = false;
 
 camX = objPlayer.x - cameraWidth / 2;
 camY = objPlayer.y - cameraHeight / 2;

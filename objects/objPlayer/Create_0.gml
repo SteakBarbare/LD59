@@ -27,6 +27,7 @@ cameraX = 0;
 cameraY = 0;
 
 gameIsWin = false;
+winSFX = false;
 
 deathAnimationOver = false;
 

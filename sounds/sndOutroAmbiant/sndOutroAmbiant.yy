@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sndOutroAmbiant",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":12.451542,
+  "exportDir":"",
+  "name":"sndOutroAmbiant",
+  "parent":{
+    "name":"Musics",
+    "path":"folders/Sounds/Musics.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndOutroAmbiant.wav",
+  "volume":1.0,
+}
