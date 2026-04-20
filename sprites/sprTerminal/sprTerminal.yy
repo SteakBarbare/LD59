@@ -23,7 +23,7 @@
   ],
   "name":"sprTerminal",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Props",
     "path":"folders/Sprites/Props.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":213,
-    "yorigin":1018,
+    "yorigin":509,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

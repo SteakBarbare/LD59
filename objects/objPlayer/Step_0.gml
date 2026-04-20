@@ -96,6 +96,13 @@ if (keyboard_check(vk_space) && instance_exists(objSonar) && !objSonar.isCarried
     view_visible[1] = false;
 }
 
+if (gameIsWin) {
+	if (deathScreenAlpha < 1) deathScreenAlpha += 0.05;
+	if (isHoveringButton && mouse_check_button_pressed(mb_left)) {
+		room_goto(rmMainMenu);
+	}
+}
+
 
 switch (playerState) {
     case "Idle":
@@ -122,6 +129,8 @@ switch (playerState) {
         break;
     
 	case "Death":
+		objSonar.isCarried = false;
+	
 		if(skeleton_animation_get() != "Death"){
 			if(sprite_index != sprPlayerSide){
 				sprite_index = sprPlayerSide;
@@ -139,7 +148,7 @@ switch (playerState) {
 		    if (deathScreenAlpha < 1) deathScreenAlpha += 0.05;
     
 		    if (isHoveringButton && mouse_check_button_pressed(mb_left)) {
-		        room_restart();
+		        room_restart()
 		    }
 		}
 	    break;

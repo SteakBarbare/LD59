@@ -10,11 +10,11 @@ if(isKilling){
 
 if (!instance_exists(objPlayer)) return;
 
-var click = mouse_check_button_pressed(mb_left);
+//var click = mouse_check_button_pressed(mb_left);
 
-if (click) {
-	createPath(mouse_x, mouse_y)
-}
+//if (click) {
+//	createPath(mouse_x, mouse_y)
+//}
 
 switch (state) {
 	case "Idle":
@@ -46,6 +46,7 @@ switch (state) {
 		break;
 }
 
+// Trap Sound
 if (!isTriggered && soundTrapTriggered != noone && !soundTrap) {
 	isRoaming = false;
 	detectSignal = false;
@@ -58,6 +59,7 @@ if (!isTriggered && soundTrapTriggered != noone && !soundTrap) {
 	soundTrapTriggered = noone;
 }
 
+// Signal Sound
 if (detectSignal && canBeTriggerBySignal) {
 	if (!instance_exists(objSonar)) return;
 	path_end();
@@ -69,6 +71,7 @@ if (detectSignal && canBeTriggerBySignal) {
 	alarm[2] = game_get_speed(gamespeed_fps);
 }
 
+// Roaming
 if (!isRoaming && !isTriggered && !detectSignal) {
 	var floorX = objPlayer.x < midRoomWidth ? 0 : midRoomWidth;
 	var floorY = objPlayer.y < midRoomHeight ? 0 : midRoomHeight;
@@ -93,7 +96,8 @@ if (!isRoaming && !isTriggered && !detectSignal) {
 	}
 }
 
-if (!isTriggered && (state == "Idle" || isRoaming)) {
+// Triggered
+if (!isTriggered && (state == "Idle" || isRoaming || detectSignal || soundTrapTriggered != noone)) {
 	var distanceFromPlayer = distance_to_object(objPlayer);
 	var playerDetected = distanceFromPlayer < detectionZone && distanceFromPlayer > 0;
 	if (playerDetected) {

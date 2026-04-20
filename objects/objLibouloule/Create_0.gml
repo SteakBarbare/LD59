@@ -23,8 +23,8 @@ soundTrapTriggered = noone;
 
 canCheck = true;
 
-detectionZone = 500;
-realPathZone = 300;
+detectionZone = 1000;
+realPathZone = 800;
 
 maximumSearchPath = 1000;
 
@@ -40,7 +40,7 @@ function createPath(xToGo, yToGo) {
 
 function isInDistanceForPath(xToGo, yToGo) {
 	// Save memory to not calcul useless paths
-	if (!canCheck) return false
+	if (!canCheck && !isTriggered) return false
 	
 	var p = path_add();
 	var playerDetected = false;
@@ -55,7 +55,7 @@ function isInDistanceForPath(xToGo, yToGo) {
 	
 	if (!playerDetected) {
 		canCheck = false;
-		alarm[1] = game_get_speed(gamespeed_fps)	
+		alarm[1] = game_get_speed(gamespeed_fps) / 4;
 	}
 	
 	return playerDetected

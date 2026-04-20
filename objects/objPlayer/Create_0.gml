@@ -7,6 +7,8 @@ isStagger = false;
 isSlow = false;
 stagTime = 1
 
+canUseSonar = true;
+
 deathScreenAlpha = 0
 isHoveringButton = false;
 
@@ -23,6 +25,8 @@ isPaused = false;
 
 cameraX = 0;
 cameraY = 0;
+
+gameIsWin = false;
 
 deathAnimationOver = false;
 
