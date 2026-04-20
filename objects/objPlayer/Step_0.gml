@@ -108,14 +108,24 @@ switch (playerState) {
         break;
     
     case "Stagger":
+	
+		if(skeleton_animation_get() != "Stagger"){
+			skeleton_animation_set("Stagger");
+		}
+		
         if (!isStagger) {
             alarm[0] = game_get_speed(gamespeed_fps) * stagTime;
             isStagger = true;
         }
+		
+		srcNewParticle(partSparks, x, y, false, 1, self);
         break;
     
 	case "Death":
 		if(skeleton_animation_get() != "Death"){
+			if(sprite_index != sprPlayerSide){
+				sprite_index = sprPlayerSide;
+			}
 			skeleton_animation_set("Death");
 			image_index = 0;
 		}
@@ -153,4 +163,13 @@ if (carrySonar && inputPrevent <= 0) {
 // Managing input
 if (inputPrevent > 0) {
 	inputPrevent -= 1;	
+}
+
+// Particles
+if(isControlsInverted){
+	srcNewParticle(partRadiation, x, y, false, 1, self);
+}
+
+if(isSlow){
+	srcNewParticle(partSlow, x, y, false, 1, self);
 }
