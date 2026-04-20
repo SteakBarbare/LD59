@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srcPlaySFX",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srcPlaySFX",
+  "parent":{
+    "name":"Srcipts",
+    "path":"folders/Srcipts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

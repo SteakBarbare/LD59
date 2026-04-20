@@ -82,6 +82,10 @@ if (playerState != "Stagger" && playerState != "Death") {
 	}else if(!movement && skeleton_animation_get() != "Idle"){
 		skeleton_animation_set("Idle");
 	}
+	
+	//if (movement) {
+	//	srcPlaySFX();	
+	//}
 }
 
 if (keyboard_check(vk_space) && instance_exists(objSonar) && !objSonar.isCarried) {
@@ -97,6 +101,10 @@ if (keyboard_check(vk_space) && instance_exists(objSonar) && !objSonar.isCarried
 }
 
 if (gameIsWin) {
+	if(!winSFX){
+		winSFX = true;
+		audio_play_sound(sndOutroAmbiant, 1, false);
+	}
 	if (deathScreenAlpha < 1) deathScreenAlpha += 0.05;
 	if (isHoveringButton && mouse_check_button_pressed(mb_left)) {
 		room_goto(rmMainMenu);

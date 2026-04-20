@@ -14,7 +14,6 @@ function srcPlaySound(soundName, shouldLoop, isRandom, pitchMin, pitchMax, fadeI
     var soundInstance = audio_play_sound(soundName, 1, shouldLoop);
  
     audio_sound_gain(soundInstance, volume, 0);
-    
   
     if (isRandom) {
         var randomPitch = random_range(pitchMin, pitchMax);

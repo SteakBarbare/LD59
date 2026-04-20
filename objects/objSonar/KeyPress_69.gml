@@ -4,3 +4,5 @@ if (objPlayer.canUseSonar) {
 		timeUsed++
 	}
 }
+
+srcPlaySound(sndPing, false, false, -1, -1, -1, 1)

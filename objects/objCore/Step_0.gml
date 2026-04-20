@@ -35,6 +35,10 @@ if(room == rmIntro && !allDocRetrieved){
 	
 	if(allDocRetrieved){
 		targetShadowAlpha = 1;
+		if(!powerDownSFX){
+			powerDownSFX = true;
+			audio_play_sound(sndPowerDown, 1, false);
+		}
 		with(objBlock){
 			instance_destroy();
 		}

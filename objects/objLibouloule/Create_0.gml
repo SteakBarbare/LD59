@@ -10,6 +10,7 @@ outlineAlpha = 0;
 outlineIncreasing = true;
 
 isKilling = false;
+gonnaMeow = true;
 
 daWae = path_add();
 moveSpeed = 4;

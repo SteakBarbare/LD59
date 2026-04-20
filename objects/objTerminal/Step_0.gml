@@ -10,7 +10,8 @@ if (distance_to_object(objPlayer) < 500) {
 	if (inputPrevent <= 0 && keyboard_check(vk_anykey)) {
 		var key = keyboard_lastchar;
 		if (key != "") {
-		    if (ord(key) >= 32 && ord(key) <= 126) {
+		    if (ord(key) >= 32 && ord(key) <= 126){
+				srcPlaySound(sndTerminal, false, false, -1, -1, -1, 1)
 		        inputTextByPlayer += key;
 		    }
 		}
