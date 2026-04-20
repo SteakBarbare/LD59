@@ -26,6 +26,8 @@ isPaused = false;
 cameraX = 0;
 cameraY = 0;
 
+gameIsWin = false;
+
 deathAnimationOver = false;
 
 image_xscale = 0.3;

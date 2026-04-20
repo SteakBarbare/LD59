@@ -8,7 +8,11 @@
   ],
   "managed":true,
   "name":"objPaperSpawn",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objSolidTemplate","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"propertyId":{"name":"outlineColorR","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.8",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objSolidTemplate","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"propertyId":{"name":"outlineColorG","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objSolidTemplate","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"propertyId":{"name":"outlineColorB","path":"objects/objSolidTemplate/objSolidTemplate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.6",},
+  ],
   "parent":{
     "name":"Templates",
     "path":"folders/Objects/Templates.yy",

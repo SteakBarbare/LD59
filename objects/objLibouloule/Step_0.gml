@@ -10,11 +10,11 @@ if(isKilling){
 
 if (!instance_exists(objPlayer)) return;
 
-var click = mouse_check_button_pressed(mb_left);
+//var click = mouse_check_button_pressed(mb_left);
 
-if (click) {
-	createPath(mouse_x, mouse_y)
-}
+//if (click) {
+//	createPath(mouse_x, mouse_y)
+//}
 
 switch (state) {
 	case "Idle":
