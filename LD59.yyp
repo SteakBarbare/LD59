@@ -235,6 +235,7 @@
     {"id":{"name":"sprPlayerBack","path":"sprites/sprPlayerBack/sprPlayerBack.yy",},},
     {"id":{"name":"sprPlayerCircleBack","path":"sprites/sprPlayerCircleBack/sprPlayerCircleBack.yy",},},
     {"id":{"name":"sprPlayerCircleFront","path":"sprites/sprPlayerCircleFront/sprPlayerCircleFront.yy",},},
+    {"id":{"name":"sprPlayerCollision","path":"sprites/sprPlayerCollision/sprPlayerCollision.yy",},},
     {"id":{"name":"sprPlayerFront","path":"sprites/sprPlayerFront/sprPlayerFront.yy",},},
     {"id":{"name":"sprPlayerLight","path":"sprites/sprPlayerLight/sprPlayerLight.yy",},},
     {"id":{"name":"sprPlayerSide","path":"sprites/sprPlayerSide/sprPlayerSide.yy",},},
@@ -285,8 +286,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
     {"roomId":{"name":"rmMainMenu","path":"rooms/rmMainMenu/rmMainMenu.yy",},},
+    {"roomId":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
     {"roomId":{"name":"rmIntro","path":"rooms/rmIntro/rmIntro.yy",},},
     {"roomId":{"name":"rmPathTest","path":"rooms/rmPathTest/rmPathTest.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
