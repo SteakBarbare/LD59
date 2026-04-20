@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sndNoiseTrap",
+  "%Name":"Sound11",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.756644,
+  "duration":0.0,
   "exportDir":"",
-  "name":"sndNoiseTrap",
+  "name":"Sound11",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sndNoiseTrap.wav",
+  "soundFile":"",
   "volume":1.0,
 }

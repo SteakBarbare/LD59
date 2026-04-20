@@ -82,6 +82,10 @@ if (playerState != "Stagger" && playerState != "Death") {
 	}else if(!movement && skeleton_animation_get() != "Idle"){
 		skeleton_animation_set("Idle");
 	}
+	
+	//if (movement) {
+	//	srcPlaySFX();	
+	//}
 }
 
 if (keyboard_check(vk_space) && instance_exists(objSonar) && !objSonar.isCarried) {

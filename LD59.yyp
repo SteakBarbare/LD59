@@ -11,7 +11,6 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Core","folderPath":"folders/Objects/Core.yy","name":"Core","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fx","folderPath":"folders/Objects/Fx.yy","name":"Fx","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -137,6 +136,7 @@
     {"id":{"name":"srcMouseInRectangle","path":"scripts/srcMouseInRectangle/srcMouseInRectangle.yy",},},
     {"id":{"name":"srcMouseInRectangleMiddle","path":"scripts/srcMouseInRectangleMiddle/srcMouseInRectangleMiddle.yy",},},
     {"id":{"name":"srcNewParticle","path":"scripts/srcNewParticle/srcNewParticle.yy",},},
+    {"id":{"name":"srcPlaySFX","path":"scripts/srcPlaySFX/srcPlaySFX.yy",},},
     {"id":{"name":"srcPlaySound","path":"scripts/srcPlaySound/srcPlaySound.yy",},},
     {"id":{"name":"srcPointInScreen","path":"scripts/srcPointInScreen/srcPointInScreen.yy",},},
     {"id":{"name":"srcRandomizeAnimationImageIndex","path":"scripts/srcRandomizeAnimationImageIndex/srcRandomizeAnimationImageIndex.yy",},},
@@ -175,6 +175,7 @@
     {"id":{"name":"sndPing","path":"sounds/sndPing/sndPing.yy",},},
     {"id":{"name":"sndSlipperyTrap","path":"sounds/sndSlipperyTrap/sndSlipperyTrap.yy",},},
     {"id":{"name":"sndTerminal","path":"sounds/sndTerminal/sndTerminal.yy",},},
+    {"id":{"name":"Sound11","path":"sounds/Sound11/Sound11.yy",},},
     {"id":{"name":"sprAcid","path":"sprites/sprAcid/sprAcid.yy",},},
     {"id":{"name":"sprAcid2","path":"sprites/sprAcid2/sprAcid2.yy",},},
     {"id":{"name":"sprAcidFx","path":"sprites/sprAcidFx/sprAcidFx.yy",},},
